@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="google-site-verification" content="1wWcWtvVwbpNeLM8xp4rDCkyiu5G5-QO6GIfLFeoffA">
+    <meta name="application-name" content="Stake">
+    <meta property="og:url" content="https://stake.com">
+    <meta property="og:site_name" content="Stake">
+
+    <link rel="stylesheet" href="https://use.typekit.net/aba0ebl.css">
+
+    <!-- This contains the contents of the <svelte:head> component, if
+	     the current page has one -->
+    
+		<link href="/_app/immutable/assets/0.Be7idB5V.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/2.Dxac2vOR.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.CokKH7f8.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/HoverableShared.DDdK-dz-.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.DNFzbYhI.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BxdntPdZ.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.JUO4habP.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.CXBYiz95.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/DropdownContentInner.DlkHq7L1.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.Dvb3PVlj.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.C053kIrr.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/DepositBonus.DJWZvnWj.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.DMDg88t4.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.Bnc4pGth.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BdirPLLy.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.Cd8tiyDO.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.felXNNtU.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Content.gLfgoKvq.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BsfGSK_s.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BBKk0HAP.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.CbvdedHS.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/DateInputField.BJgNS0ol.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.IZYvmPNg.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/InputError.B97_15Jc.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.LoJdQSsC.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BSQFDegy.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.bkZiabwo.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/RegisterOauth.0Eaenvun.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.qnL1AeOy.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BFVN46Uo.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/AcceptTermsOfService.DIEi3E4l.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Terms.BtijQPZV.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.CHeVtY64.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.C3rup6OF.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BRUkmz6L.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/group._cIB3KuL.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/SportBetOutcome.CpoZhDYi.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.C3SClUl_.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.DnWe99vP.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.D_dkgKnC.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/messages.BiQ70sTp.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.CmrxalE1.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/AccordionHeader.CnNLgGdH.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.DxKxNrPr.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.DmlheggN.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.CNBwtUN2.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.u00usa4u.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.FcFDsYzm.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.B2eXO9HW.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.B3vG_aBm.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.CC2klXHg.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.fCJad0vI.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/customSwishBet.CEVC-jmZ.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Preview.CbyvM1MS.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Result.BnG1BxbY.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BEgLZgk1.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.Cg0Yh1Ce.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Tiles.B2z4usgi.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.Dlit91T8.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Result.DoGO3ZAU.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/messages.CorL9aLo.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Preview.DDAfxwJ1.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Result.VvoSddbp.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Preview.CTFWpQkN.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Result.DtuSVOdc.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/SpriteSheetCanvas.dYJ-uoBw.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Result.CuF9DYnC.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Hand.DnsjfR5N.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Preview.Cey0X9NP.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.CnBVomD6.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Result.CXWrAR1o.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Result.CbXosT2g.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/GuessPlayingCard.DVgxOKYc.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Preview.CuxnybTk.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Result.C_4wqp1G.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Tile.DeoutBOY.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Result.B9kTQ2Ll.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Result.CqFeycVZ.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Tile.C38U4saz.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Result.CYm88YDE.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/helpers.BusVqxfu.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Preview.N2bH08C8.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Result.g7cjzFhx.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Board.BN2KEkg3.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Preview.a0OUc37u.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Result.apGzwVoz.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.CzQH7a9v.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.CaM-HG9a.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Preview.CFYNrnRk.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Result.BhWBGuQ1.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/PixiApplication.Ce26R-3d.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Result.D4AUHAZh.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.DlkQpQ9S.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Result.JMrT5gaY.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/OddsTable.JewEwKkI.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.C5k6R9kX.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.B7iaX1Uo.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.Cn-hogb9.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Result.CwYjlnnq.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.CcO8OMuM.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.Dk4tXzwE.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/CrashGame.CHvd5TYi.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BeAU0Ht7.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.i96WhWp3.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BKIf2qFB.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.CIIXXJyc.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.B4ZLc7qG.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Slide.BjLT6XHY.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.8oPxuECQ.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.CNeaGQKb.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.pIg_YGgN.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/SlideGame.C-xCGfwZ.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/store.DZI5CbP7.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.D4mV8pyK.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Address.aCJnikvW.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/CreateWithdrawalMeta.DdqURt92.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.CVShe-_l.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.Aw-sVBnN.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.2XCtgqeS.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.Cxe45h4T.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.DruRtu34.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.Bt8iowVM.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.-lGgxXJ1.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.B38WCeFZ.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.DWlh2vYU.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.g_pox5WJ.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/StakeShop.wnpuN71x.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BQ4sBIy5.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.DNESmN0r.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/HoverTooltip._uE6kbgV.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/messages.rneuwz2t.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BgILgkJs.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BOV_ILbp.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BgA0S2U5.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.YFi4kXHM.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.agOa9Z7K.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/SectionStatisticsColumn.Du4gprKm.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.J1DcJVE5.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/LayoutSpacing.DqlW0gM4.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.IKLJS44X.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.CTJcXMWH.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/utils.C_rUymVX.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.DOgJU9oP.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.CxhzasRP.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.6jM-ELh1.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.Bh_M27jZ.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.B1oYvxF1.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.CnBKBqLK.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.C3HhUlCF.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BFdqteE_.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BKULFvtm.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.DS4Z4Mir.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BaoE0Q-K.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.Dt-whzYX.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.eqST3Hm6.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.DIcoyblU.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.Bvk_8q9u.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.HRa0-C37.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.Bn4BZCql.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BBiMmcLD.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/Chat.VYiqCzc7.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.DPcBnBXb.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/MyBets.jY5NpBBy.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/BetsListBoard.WT6aIK4u.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BTR26FI7.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.DbJ7nT-r.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/SearchACP.Dh-_tDXn.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/47.B5c42Vez.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/getTrendingTopSportImage.BfvqeeuB.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.BrZfA_Ar.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/index.DaYOpKkU.css" rel="stylesheet"><title>Stake.us - The Leading Social Casino. Fun &amp; Free to Play</title><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="48x48" href="https://stake.us/favicon-48x48.png"><link rel="icon" type="image/png" sizes="32x32" href="https://stake.us/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://stake.us/favicon-16x16.png"><meta name="theme-color" content="#1a2c38"><link rel="canonical" href="https://stake.us/"><meta name="robots" content="index,follow"><meta name="googlebot" content="index,follow"><meta name="description" content="Stake provides an incredible online social casino experience. Fun &amp; Free to Play. Main Partner Everton. UFC Official Partner."><meta property="og:title" content="Stake.us - The Leading Social Casino. Fun &amp; Free to Play"> <meta property="og:description" content="Stake provides an incredible online social casino experience. Fun &amp; Free to Play. Main Partner Everton. UFC Official Partner."> <meta property="og:url" content="https://stake.us/">   
+
+      <script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/static/identify_7bf75739.js"></script><script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/static/main.MTJhNGMzN2YwMQ.js" data-id="CFHLON3C77UCCRP96110"></script><script type="text/javascript" async="" src="https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CFHLON3C77UCCRP96110&amp;lib=ttq"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/destination?id=AW-10969022778&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-XS7Q1FZNNZ&amp;l=dataLayer&amp;cx=c"></script><script type="text/javascript" async="" src="https://widget.intercom.io/widget/nvxi1gr5"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-PDPFJXK"></script><script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@id": "#stake-org",
+          "@type": "Casino",
+          "name": "Stake.com",
+          "alternateName": "Stake",
+          "url": "https://stake.com",
+          "currenciesAccepted": ["BTC", "ETH", "BCH", "LTC", "DOGE", "XRP", "TRX", "EOS","USDT","BNB","CRO","USDC","APE","BUSD","DAI","LINK","SAND","SHIB","UNI","MATIC", "SOL","ARS", "CLP", "BRL", "JPY", "CAD", "INR", "PEN"],
+          "paymentAccepted": ["Cryptocurrency", "MuchBetter", "Vega Wallet", "Digital Wallet"],
+          "address": "https://schema.org/VirtualLocation",
+          "memberOf": ["https://cryptogambling.org/"],
+          "mainEntityOfPage": "https://stake.com",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Stake-com-logo-high-res.jpg/1200px-Stake-com-logo-high-res.jpg",
+          "description": "Stake.com is the leading online casino and sports betting platform.",
+          "foundingDate": "2017",
+          "founder": [
+            {
+              "@type": "Person",
+              "name": "Ed Craven",
+              "subjectOf": [
+                "https://www.sportskeeda.com/esports/news-who-ed-craven-everything-need-know-kick-s-co-founder"
+              ],
+              "sameAs": [
+                "https://en.wikipedia.org/wiki/Ed_Craven",
+                "https://twitter.com/stakeeddie",
+                "https://www.instagram.com/stake.eddie",
+                "https://au.linkedin.com/in/ed-craven",
+                "https://kick.com/eddie",
+                "https://www.google.com/search?kgmid=/g/11l2m7bjrc"
+              ]
+            },{
+              "@type": "Person",
+              "name": "Bijan Tehrani",
+              "sameAs": [
+                "https://www.google.com/search?kgmid=/g/11kj361g3n"
+              ]
+            }
+          ],
+          "subjectOf": [
+            "https://www.gamblingnews.com/news/stake-com-donates-1m-to-humanitarian-efforts-in-ukraine/",
+            "https://www.ufc.com/news/ufc-expands-partnership-stakecom-official-betting-partner-latin-america-and-asia",
+            "https://www.thesun.co.uk/news/15670707/watford-new-cryptocurrency-shirt-sponsor-stake/",
+            "https://ftw.usatoday.com/2022/03/drake-crypto-betting-stake-partnership-inevitable",
+            "https://ftw.usatoday.com/2022/03/drake-crypto-betting-site-stake-donate-1-million-lebron-james-foundation",
+            "https://sbcnews.co.uk/marketing/2021/01/20/stake-com-recruits-ufcs-israel-adesanya-as-new-global-brand-ambassador/",
+            "https://www.theaustralian.com.au/business/companies/stakecom-duo-edward-craven-and-bijan-tehrani-register-australian-companies-ahead-of-potential-local-betting-move/news-story/c5a3f868db246fc5fb42d0a0bc0bfe76",
+            "https://decrypt.co/211523/drake-reveals-crypto-casino-stakes-rebranded-f1-racing-team",
+            "https://www.cryptotimes.io/2024/01/02/sauber-f1-inks-2-year-deal-with-crypto-casino-stake/",
+            "https://www.analyticsinsight.net/latest-news/best-online-casino-how-stake-com-became-the-biggest-thing-in-gambling",
+            "https://www.tronweekly.com/the-biggest-casino-wins-on-stake-com/",
+            "https://blockchainreporter.net/crypto-and-casinos-how-stake-com-pioneered-a-2-6-billion-industry-giant/"
+          ],
+          "sameAs": [
+            "https://www.facebook.com/StakeCasino/",
+            "https://twitter.com/Stake",
+            "https://www.instagram.com/stakecasino/",
+            "https://www.youtube.com/c/StakeCasinoTV",
+            "https://www.linkedin.com/company/stakecasino/",
+            "https://en.wikipedia.org/wiki/Stake.com",
+            "https://www.google.com/search?kgmid=/g/11syf93_y7"
+          ]
+        }
+      </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "#stake-website",
+        "url": "https://stake.com",
+        "author": {
+          "@id": "#stake-org"
+        },
+        "sourceOrganization": {
+          "@id": "#stake-org"
+        },
+        "translator": {
+          "@id": "#stake-org"
+        },
+        "description": "Stake.com is the leading online casino and sports betting platform.",
+        "inLanguage": [
+          "en",
+          "ar",
+          "de",
+          "es",
+          "fr",
+          "fi",
+          "hi",
+          "id",
+          "ja",
+          "ko",
+          "pl",
+          "pt",
+          "ru",
+          "tr",
+          "vi",
+          "zh"
+        ],
+        "sponsor": [
+          {
+            "@type": "Person",
+            "name": "Drake",
+            "url": "https://stake.com/drake",
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Drake_(musician)",
+              "https://www.instagram.com/champagnepapi",
+              "https://twitter.com/Drake",
+              "https://kick.com/drake",
+              "https://www.youtube.com/channel/UCByOQJjav0CUDwxCk-jVNRQ",
+              "https://drakerelated.com",
+              "https://www.google.com/search?kgmid=/m/05mt_q"
+            ]
+          },
+          {
+            "@type": "SportsTeam",
+            "name": "Stake F1 Team",
+            "alternateName": "Stake F1 Team Kick Sauber",
+            "url": "https://stake.com/sponsorships/stake-f1-team",
+            "sameAs": [
+              "https://www.sauber-group.com/",
+              "https://en.wikipedia.org/wiki/Sauber_Motorsport",
+              "https://www.formula1.com/en/teams/kick-sauber",
+              "https://twitter.com/stakef1team_ks",
+              "https://www.youtube.com/user/saubermotorsport",
+              "https://www.facebook.com/p/Stake-F1-Team-100044502146810/",
+              "https://www.instagram.com/sauberesports/",
+              "https://www.google.com/search?kgmid=/m/08w5jz"
+            ]
+          },
+          {
+            "@type": "SportsOrganization",
+            "name": "UFC",
+            "alternateName": "Ultimate Fighting Championship",
+            "description": "The Ultimate Fighting Championship is an American mixed martial arts promotion company based in Las Vegas, Nevada. It is owned and operated by TKO Group Holdings, a majority owned subsidiary of Endeavor Group Holdings.",
+            "url": "https://stake.com/sponsorships/ufc",
+            "sport": "MMA",
+            "subjectOf": [
+              "https://stake.com/sports/mma/ufc"
+            ],
+            "sameAs": [
+              "https://en.wikipedia.org/wiki/Ultimate_Fighting_Championship",
+              "https://www.ufc.com/",
+              "https://www.instagram.com/ufc",
+              "https://twitter.com/UFC",
+              "https://www.youtube.com/ufc",
+              "https://www.facebook.com/UFC",
+              "https://www.google.com/search?kgmid=/m/016r3g"
+            ] 
+          },
+          {
+            "@type": "SportsOrganization",
+            "name": "Everton Football Club",
+            "alternateName": "Everton F.C.",
+            "url": "https://stake.com/sponsorships/everton",
+            "description": "Everton Football Club is an English professional association football club based in Liverpool that competes in the Premier League, the top tier of English football.",
+            "subjectOf": ["https://www.evertonfc.com/news/2642194/everton-signs-club-record-deal-with-stakecom", "https://www.evertonfc.com/news/2642197/who-are-stakecom", "https://www.nytimes.com/athletic/3490186/2022/06/09/everton-announce-club-record-sponsorship-deal-with-gambling-company-stake-com/"],
+            "sameAs": ["https://www.evertonfc.com", "https://en.wikipedia.org/wiki/Everton_F.C.", "https://twitter.com/Everton", "https://www.instagram.com/everton", "https://www.facebook.com/Everton", "https://www.youtube.com/channel/UCtK4QAczAN2mt2ow_jlGinQ"]
+           },
+           {
+            "@type": "SportsOrganization",
+            "name": "Esporte Clube Juventude",
+            "url": "https://stake.com/sponsorships/juventude",
+            "description": "Esporte Clube Juventude, also known as Juventude, is a Brazilian football team in Caxias do Sul, Rio Grande do Sul. The club currently competes in the first tier of Brazilian football, the Série A, as well as in Campeonato Gaúcho Série A, the first level of the Rio Grande do Sul state football league.",
+            "subjectOf": ["https://www.gamesbras.com/english-version/2024/1/3/stake-is-the-new-main-sponsor-of-esporte-clube-juventude-41859.html", "https://sbcnews.co.uk/sportsbook/2024/01/09/stake-juventude-sponsorship/", "https://www.juventude.com.br/noticias/stake-e-a-nova-patrocinadora-master-do-esporte-clube-juventude"],
+            "sameAs": ["https://twitter.com/ECJuventude", "https://www.youtube.com/channel/UCrY4s3Eq7zSa5SE1LjoW_xg", "https://www.facebook.com/juventude", "https://www.google.com/search?kgmid=/m/05cvr9", "https://en.wikipedia.org/wiki/Esporte_Clube_Juventude"]
+           },
+           {
+            "@type": "SportsOrganization",
+            "name": "Enyimba Football Club",
+            "alternateName": "Enyimba F.C.",
+            "url": "https://stake.com/sponsorships/enyimba",
+            "description": "Enyimba Football Club or simply known as Enyimba, is a Nigerian professional football club based in the city of Aba, Abia State which plays in the Nigerian Professional Football League.",
+            "subjectOf": ["https://enyimbafc.net/enyimba-confirms-shirt-sponsorship-deal-with-stake-com/", "https://www.thisdaylive.com/index.php/2023/08/19/enyimba-secures-sponsorship-deal-with-stake-com-depart-for-libya/", "https://sunnewsonline.com/enyimba-secures-sponsorship-deal-with-stake-com/"],
+            "sameAs": ["https://twitter.com/EnyimbaFC", "https://www.facebook.com/enyimbafc/", "https://en.wikipedia.org/wiki/Enyimba_F.C."]
+           },
+           {
+            "@type": "SportsOrganization",
+            "name": "Davis Cup",
+            "url": "https://stake.com/sponsorships/world-cup-of-tennis",
+            "description": "The Davis Cup is the premier international team event in men's tennis. It is run by the International Tennis Federation and is contested annually between teams from over 150 competiting countries, making it the world's largest annual team sporting competition.",
+            "subjectOf": ["https://www.itftennis.com/en/news-and-media/articles/itf-announces-update-to-roster-of-commercial-partners-across-world-cup-of-tennis-including-new-deal-with-stake/", "https://www.gamblinginsider.com/news/24109/stake-partners-with-international-tennis-federation-as-official-betting-partner", "https://www.sportbusiness.com/news/itf-re-enters-betting-sector-with-stake-following-absence-over-integrity-issues/", "https://www.telecomasia.net/news/other/stake-com-becomes-betting-partner-of-international-tennis-federation/", "https://www.sportcal.com/sponsorship/itf-teams-up-with-stake-unveils-trio-of-partnership-extensions/"],
+            "sameAs": ["https://en.wikipedia.org/wiki/Davis_Cup", "https://www.facebook.com/DavisCupTennis", "https://www.instagram.com/daviscup", "https://twitter.com/DavisCup", "https://www.tiktok.com/@daviscup"]
+           },
+           {
+            "@type": "SportsOrganization",
+            "name": "Billie Jean King Cup",
+            "url": "https://stake.com/sponsorships/world-cup-of-tennis",
+            "description": "The Billie Jean King Cup is the premier international team competition in women's tennis, launched as the Federation Cup in 1963 to celebrate the 50th anniversary of the International Tennis Federation.",
+            "subjectOf": ["https://www.itftennis.com/en/news-and-media/articles/itf-announces-update-to-roster-of-commercial-partners-across-world-cup-of-tennis-including-new-deal-with-stake/", "https://www.gamblinginsider.com/news/24109/stake-partners-with-international-tennis-federation-as-official-betting-partner", "https://www.sportbusiness.com/news/itf-re-enters-betting-sector-with-stake-following-absence-over-integrity-issues/", "https://www.telecomasia.net/news/other/stake-com-becomes-betting-partner-of-international-tennis-federation/", "https://www.sportcal.com/sponsorship/itf-teams-up-with-stake-unveils-trio-of-partnership-extensions/"],
+            "sameAs": ["https://en.wikipedia.org/wiki/Billie_Jean_King_Cup", "https://www.billiejeankingcup.com/", "https://www.facebook.com/BillieJeanKingCup/", "https://twitter.com/BJKCup"]
+           },
+           {
+            "@type": "Organization",
+            "name": "Team Secret",
+            "url": "https://stake.com/sponsorships/team-secret",
+            "description": "Team Secret is an esports team based in Europe formed in 2014, best known for their Dota 2 team. In March 2016, Team Secret picked up an international female Counter-Strike: Global Offensive team.",
+            "subjectOf": ["https://teamsecret.gg/blogs/news/team-secret-enters-partnership-with-kick-and-stake", "https://www.youtube.com/watch?v=FvQ9Ljm8UYQ"],
+            "sameAs": ["https://en.wikipedia.org/wiki/Team_Secret", "https://twitter.com/teamsecret", "https://www.facebook.com/TeamSecret/", "https://www.instagram.com/teamsecret/", "https://www.youtube.com/teamsecret", "https://teamsecret.gg/"]
+           },
+           {
+            "@type": "Person",
+            "name": "Sergio Agüero",
+            "alternateName": "Kun Agüero",
+            "url": "https://stake.com/sponsorships/sergio-aguero",
+            "description": "Sergio Leonel Agüero del Castillo, also known as Kun Agüero, is an Argentine former professional footballer who played as a striker.
+           ",
+            "subjectOf": ["https://www.ice365.com/en/articles/70923/stake-com-signs-football-icon-aguero-as-brand-ambassador/", "https://www.gamblinginsider.com/news/14895/stakecom-unveils-sergio-aguero-as-brand-ambassador", "https://casinobeats.com/2022/02/01/sergio-aguero-becomes-latest-stake-brand-ambassador/", "https://sbcamericas.com/2022/02/03/stake-com-partners-with-argentine-soccer-icon-sergio-aguero/", "https://www.sportquake.com/blog/2022/02/02/stake-sign-sergio-aguero-as-brand-ambassador/", "https://sbcnews.co.uk/marketing/2022/02/01/stake-com-signs-sergio-aguero-to-boost-global-brand-visibility/"],
+            "sameAs": ["http://www.sergioaguero.com/", "https://www.instagram.com/kunaguero", "https://twitter.com/aguerosergiokun", "https://www.youtube.com/channel/UCMl6IV2MR5W2gg4qHYAqcoQ", "https://www.facebook.com/sergioelkunaguero", "https://www.google.com/search?kgmid=/m/099vgz"]
+           },
+           {
+            "@type": "Person",
+            "name": "Israel Adesanya",
+            "alternateName": "	Israel Mobolaji Temitayo Odunayo Oluwafemi Owolabi Adesanya",
+            "url": "https://stake.com/sponsorships/adesanya",
+            "description": "Israel Mobolaji Temitayo Odunayo Oluwafemi Owolabi Adesanya is a New Zealand professional mixed martial artist, kickboxer, and former boxer.",
+            "subjectOf": ["https://sbcnews.co.uk/marketing/2021/01/20/stake-com-recruits-ufcs-israel-adesanya-as-new-global-brand-ambassador/", "https://cryptonews.com/news/ufc-champion-israel-adesanya-signs-ambassador-deal-8964.htm", "https://insidersport.com/2021/01/20/the-ufcs-middleweight-king-combines-with-stake-com/"],
+            "sameAs": ["https://en.wikipedia.org/wiki/Israel_Adesanya", "https://www.instagram.com/stylebender", "https://twitter.com/stylebender", "https://www.facebook.com/thelaststylebender", "https://www.youtube.com/c/freestylebender", "https://www.espn.com/mma/fighter/_/id/4285679/israel-adesanya", "https://www.google.com/search?kgmid=/g/11c1s_3n7q"]
+           },
+           {
+            "@type": "Person",
+            "name": "Alex Pereira",
+            "url": "https://stake.com/sponsorships/alex-pereira",
+            "description": "Alex Sandro Silva Pereira is a Brazilian professional mixed martial artist and former kickboxer. He currently competes in the Light Heavyweight division in the Ultimate Fighting Championship, where he is the current UFC Light Heavyweight Champion and a former UFC Middleweight Champion.
+           ",
+            "subjectOf": ["https://www.yogonet.com/international/noticias/2024/04/01/71506-stake-signs-of-ufc-champion-alex-pereira-as-a-global-ambassador", "https://casinobeats.com/2024/03/28/ufc-champion-alex-pereira-links-with-stake-com/", "https://insidersport.com/2024/03/28/stakes-ufc-alex-pereira-partnership/"],
+            "sameAs": ["https://en.wikipedia.org/wiki/Alex_Pereira", "https://www.google.com/search?kgmid=/m/0_v5v_q", "https://www.instagram.com/alexpoatanpereira", "https://twitter.com/AlexPereiraUFC", "https://www.youtube.com/@Poatan.AlexPereira", "https://www.espn.com.au/mma/fighter/_/id/4705658/alex-pereira"]
+           },
+           {
+            "@type": "Person",
+            "name": "Alexa Grasso",
+            "url": "https://stake.com/sponsorships/alexa-grasso",
+            "description": "Alexa Grasso is a Mexican professional mixed martial artist who competes in the women's Flyweight division of the Ultimate Fighting Championship, where she is the current UFC Women's Flyweight Champion.
+           ",
+            "subjectOf": ["https://sportsbettingoperator.com/news/stake-com-announces-two-new-brand-ambassadors-to-the-team/", "https://insidersport.com/2021/05/21/ufc-duo-joins-stake-com-brand-ambassador-roster/", "https://mmasucka.com/2023/03/27/alexa-grassos-career-in-depth-history-of-the-ufc-strawweight-champion/"],
+            "sameAs": ["https://en.wikipedia.org/wiki/Alexa_Grasso", "https://www.google.com/search?kgmid=/g/11b7778j5z", "https://www.instagram.com/alexa_grasso/", "https://twitter.com/AlexaGrasso", "https://www.facebook.com/AlexaGrassoMMA/", "https://www.espn.com.au/mma/fighter/_/id/3136287/alexa-grasso"]
+           }      ,
+           {
+            "@type": "Person",
+            "name": "Alexandre Pantoja",
+            "url": "https://stake.com/sponsorships/alexandre-pantoja",
+            "description": "Alexandre Pantoja Passidomo is a Brazilian professional mixed martial artist. He currently competes in the Flyweight division in the Ultimate Fighting Championship, where he is the current UFC Flyweight Champion.
+           ",
+            "sameAs": ["https://en.wikipedia.org/wiki/Alexandre_Pantoja", "https://www.google.com/search?kgmid=/g/11c5rmdbxp", "https://twitter.com/Pantojamma", "https://www.facebook.com/pantojaoficial/", "https://www.espn.com.au/mma/fighter/_/id/2560746/alexandre-pantoja"]
+           },
+           {
+            "@type": "Person",
+            "name": "Enzo Fittipaldi",
+            "url": "https://stake.com/sponsorships/fittipaldi-brothers",
+            "description": "Enzo Fittipaldi da Cruz is a Brazilian racing driver, who is currently competing in the FIA Formula 2 Championship with Van Amersfoort Racing. Fittipaldi was the 2018 Italian F4 champion and 2019 Formula Regional European runner-up.
+           ",
+            "subjectOf": ["https://igamingbusiness.com/marketing-affiliates/stake-com-links-up-with-motorsports-fittipaldi-brothers/", "https://sbcnews.co.uk/sportsbook/2022/03/15/stake-com-makes-formula-one-debut-in-pietro-fittipaldi-partnership/", "https://sbcamericas.com/2022/03/15/stake-com-secures-fittipaldi-partnership-deal-ahead-of-2022-f1-season/"],
+            "sameAs": ["https://en.wikipedia.org/wiki/Enzo_Fittipaldi", "https://www.google.com/search?kgmid=/g/11c5_9qbmc", "https://www.instagram.com/enzofitti/", "https://www.facebook.com/enzofittipaldioficial/", "https://twitter.com/enzofitti"]
+           },
+           {
+            "@type": "Person",
+            "name": "Pietro Fittipaldi",
+            "url": "https://stake.com/sponsorships/fittipaldi-brothers",
+            "description": "Pietro Fittipaldi da Cruz is a Brazilian racing driver currently competing in the IndyCar Series driving the No. 30 Honda for Rahal Letterman Lanigan Racing, alongside serving as a test and reserve driver for Formula One team Haas.
+           ",
+            "subjectOf": ["https://igamingbusiness.com/marketing-affiliates/stake-com-links-up-with-motorsports-fittipaldi-brothers/", "https://sbcnews.co.uk/sportsbook/2022/03/15/stake-com-makes-formula-one-debut-in-pietro-fittipaldi-partnership/", "https://sbcamericas.com/2022/03/15/stake-com-secures-fittipaldi-partnership-deal-ahead-of-2022-f1-season/"],
+            "sameAs": ["https://en.wikipedia.org/wiki/Pietro_Fittipaldi", "https://www.google.com/search?kgmid=/m/011x4y5b", "https://www.instagram.com/pifitti/", "https://twitter.com/PiFitti", "https://www.haasf1team.com/season/team/pietro-fittipaldi"]
+           },
+           {
+            "@type": "Person",
+            "name": "Caio Borralho",
+            "alternateName": "Caio Vinícius Silva Borralho",
+            "url": "https://stake.com/sponsorships/borralho",
+            "description": "Caio Vinícius Silva Borralho is a Brazilian professional mixed martial artist who competes in the Middleweight division of the Ultimate Fighting Championship. As of August 27, 2024, he is #5 in the UFC middleweight rankings.",
+            "sameAs": ["https://en.wikipedia.org/wiki/Caio_Borralho", "https://www.instagram.com/caioborralho/", "https://twitter.com/BorralhoCaio", "https://www.facebook.com/caio.borralho/", "https://www.ufc.com/athlete/caio-borralho", "https://www.google.com/search?kgmid=/g/11q2xpxgwh"]
+           },
+           {
+            "@type": "Person",
+            "name": "Merab Dvalishvili",
+            "url": "https://stake.com/sponsorships/merab",
+            "description": "Merab Dvalishvili is a Georgian professional mixed martial artist. He currently competes in the Bantamweight division in the Ultimate Fighting Championship. As of February 20, 2024, he is #1 in the UFC bantamweight rankings.",
+            "sameAs": ["https://en.wikipedia.org/wiki/Merab_Dvalishvili","https://www.instagram.com/merab.dvalishvili/", "https://twitter.com/MerabDvalishvil", "https://www.facebook.com/Merab.Dvalishvili.TheMachine/", "https://www.youtube.com/@merabdvalishvilimachine", "https://www.ufc.com/athlete/merab-dvalishvili", "https://www.google.com/search?kgmid=/g/11gfm7dfyz"]
+           }     
+        ],
+        "about": [
+          "https://en.wikipedia.org/wiki/Stake.com",
+          "https://en.wikipedia.org/wiki/Online_casino",
+          "https://en.wikipedia.org/wiki/Sportsbook",
+          "https://en.wikipedia.org/wiki/Horse_racing"
+
+        ]
+      }
+    </script>
+  <link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/nodes/0.CKR_SmUT.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.BU1QHaYr.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DvoQgctl.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/entry._KykFj0B.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/scheduler.ykyPO-8o.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CPlhZ6W4.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/control.CYgJF_JY.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DdOymAFX.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/urql-svelte.BsXGK9Cz.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/helpers.GES0N6UU.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/RestrictedRegion.generated.TUGGhl-h.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/auth.6jtdzrMV.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/utils.DtNaCEVa.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/array.e430M7ts.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/messages.ChtBJMFs.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/UserPreferenceMeta.generated.BbBaS4J9.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.g5YcAAdQ.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/CurrentAnnouncements.generated.Cniolakq.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/GetFeatureFlags.generated.CL24m5OL.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/_api.C4TaNKz5.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/KuratorCollection.generated.C8c5aVgv.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/get.CheJDLMD.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/roles.Br_A2_ZK.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/stores.CaFmQc60.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/nodes/1.DnMj_3ms.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CN-eoYc4.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/spread.CgU5AtxT.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/utils.vK_o3JBb.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.BdJ2PjiK.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Dnb6jgnz.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/bundle-mjs.DWaIzkmK.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/link.DMTF8Ohu.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CekYuA5j.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/ctx.Ds3lZQn2.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.I9Gz9E1d.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/each.Dl1qwH1D.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/button.yxXr6MPH.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DBPRmACr.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/context.B0R5LtVU.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/resizeObserver.A9wvMie0.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/variables.BQf8nP_B.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/context.CGVzSjA0.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/LayoutSpacing.C23INor8.js"><link rel="stylesheet" href="/_app/immutable/assets/1.IQFC-XKP.css"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/nodes/2.ByJ6XJyr.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/2.CH7LHT4R.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/globals.D0QH3NT1.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Dize4wei.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Cpg-fJ3N.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Dw9sQMtO.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DMRxsW70.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.BlfDAwv4.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/sessionInfo.X8O36D-P.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/fiatNumberFormat.DoicP6d_.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Error.BUJYzmFI.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.BW7Y021S.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DKABo0Jr.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/utils.jyd1rHe0.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/query-string.Da4oG6Gw.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/preload-helper.BqjOJQfC.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Trophy4.BGm9lhJt.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Settings.unhdZh57.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/SportsArchery.BTnuo0kd.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/constants.D0PebZd_.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Info.DM8bNEcq.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Account.oU34Myu3.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/paths.CgX2uGDc.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/SportsBasketball.BbyWqz8M.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Graph.CHUt8P1Y.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DNYY0yI_.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CqbPjkeF.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Wallet.DaoSwjax.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.C4BBmlp-.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/geoComply.DidiCAOr.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/vip.Xqz4PfMb.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CzPaIgRX.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Bk3Mqm1j.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.B6lIlTju.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Df340Koz.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.B7izqbCA.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.L8fNp_H4.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/DropdownContent.0ZFPC574.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/popper.Dvb6l-Oe.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/context.DSlJzpxM.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Dm2ENgnL.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/DropdownArrow.DHfnElMU.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Dir3EyfC.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/ChevronDown.CLXWOGdx.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Cfdq3niL.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.VEpfA2Cu.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.BTH_meyY.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Balxzt-f.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Dh6mZp1l.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/shared.bkBAxTJf.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CnDwpxEl.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.svelte_svelte_type_style_lang.BELcCGcG.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/utils.BNrIphmv.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/constants.BFUG8_c5.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/stores.BeGhQnjg.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.D33Rzw_E.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Search.7xxYbfIY.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Cross.BjNNa_ac.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DDDPPGVW.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/blockTouchBodyScroll.cXxkc2Ey.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/KuratorGameQuery.generated.D_RF3oUR.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CBDaUPBA.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CDm7rR9x.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CPLoiZW3.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DKZwsAiL.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/generatePath.DsXei5FM.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Play.Cu2fCr5y.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DAqf1OxZ.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.BWDuDuNX.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.sMf7rN-h.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.f4ugJu7h.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/TableGames.CKEU7lp_.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/MiscStop.hgafrsCm.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/StakeOriginalsStakeWheel.Na7yHbDl.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/StakeOriginalsStakeRoulette.D_sIx-Fv.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/LiveDealers.BTkAmX7V.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Fire.D6qBvoqn.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/BadgesUnignore.CYLML10n.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Casino.ByYbXbZM.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/BetInstant.BxBh_GRn.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Rewards.BzLmeFDs.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Affiliate.DaCBEt5L.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/SortAZ.DKrmVRl4.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/helpers.DrdznBvg.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.c5ZYeEnf.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/tslib.es6.mpX7CUZ9.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/innerFrom.D4EiaxJA.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/distinctUntilChanged.BVosGKcF.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/tap.Bv99Wp3c.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/debounceTime.9FEDkF68.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/async.DnhAj-7j.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.B2R3d4Tw.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.BPJ4uUte.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/fixture.CyiRdfek.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/ArrowTailForward.Bpsao5iV.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/group.DBj5aEQR.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Dx1LhiRY.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.D3svsWHm.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/SportBetOutcome.C8bfUEF1.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.D_85By3N.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.BZ_ijfKT.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/howler.DGZhPWWs.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/clickTransform.vvy_o34T.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/betPrePlacementStore.C7CdCiI4.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/_curry2.S8Bff5Bl.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CkVYRQaP.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.BT45absI.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.lcNA4xI0.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.D0yQP-FW.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/messages.DzUv161L.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.By8BZ3_Q.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CCU1fGNQ.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/constants.C0QTuHGy.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/makeFetchStore.CBjrDUHC.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/utils.Csgj0yys.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.BJruBZa9.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Live.8JZTwvZ3.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Lock.cJq_YZgD.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Bv4qMHO6.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/RaceCountdownLive.lpLaS1SQ.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Dwoxk6H9.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/season.sTo0b-5Q.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/lottie.B0pZIiht.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Mail.DSC9v9Nb.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Cq_eNUyU.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DhQWidWC.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Bt780WEz.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/helpers.Dv-NdTzR.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/messages.CChB0k5l.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/MicrophoneOff.CQd7xKTH.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/UserFromName.CLAWwxLt.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CLU2BfSa.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.svelte_svelte_type_style_lang.mOF6H0x8.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CiUIGE-m.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/VIPSilver.C5ojzPtE.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.svelte_svelte_type_style_lang.CEjoRiVj.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/GhostModeOn.CbtNjQ2u.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CYq-mXUR.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DqrZAoNX.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/SportsHorseRacing.10z_mCWC.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/clickOutside.B3QPj_Ml.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/helpers.BwbTJMwe.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Betslip.DeL1LSFA.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Security.4U47Behq.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Support.D8p8KMsd.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Unfriend.CWc1MNTr.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Nl-kDqBl.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Check.RgdAZzuu.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Dgi9nxUs.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/rum.DX88dPwq.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/activeRaces.DZpcDAN3.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/helpers.BPj8Fc6c.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.BSFPgtH5.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/MyBetList.generated.MEuAH-ew.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DbuxJCha.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Races.CdL3oHhN.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/racingEvent.DnWiySGm.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/startWith.BcSPMPwX.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DzLA6bDq.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DNw3PfWV.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Pagination.BrI9jAnV.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/customSwishBet.BoMWDRB_.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/DotsLoader.CiFB6q9o.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.B4phUnvU.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/FavouriteFilled.DzHQZBfT.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/SportsPopularEvents.DIcQ3nXv.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/StartingSoon.vaCz1_rw.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/PlayCircle.BDEg9mQk.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/SportsSoccer.M0mQsESR.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CPZAejkL.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.8qhdjD0b.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Button.D3yR0Png.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/interpreter.CJhK2JTN.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DrtmenLm.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/contentOrLoader.RaJa1IiY.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/ChevronUp.DYL7wUPv.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.BoeHJkZL.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/scrollTopContainer.DLbcGdPu.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/createPagination.CPRpc67l.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/await_block.Cx08eUf6.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Cpi6j9yi.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/betSlipStore.CfjZTRmz.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/_reduce.Bk57OQFm.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.si5XygqW.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/reduce.DMHapldS.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/dissoc.Cvmt2T8M.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Close.DXGj-XC_.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/MyBets.BqkJPJd7.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DgdwX_ph.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CuaBcSqZ.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/InputError.W09u-GPK.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.KRtYHW7w.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Bft3B3fQ.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/context.C0dg2fJD.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/ViewOn.BrX8E-_r.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/racingRunner.DFCC1ef2.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/helpers.BBtKl3Fj.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Favourite.COxeuYWI.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/SuitHeart.xo7UE-pm.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.PmcsPDzC.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/ChevronRight.q9ykCaF9.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CUAUBFIo.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.D12qCMiF.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/AddIgnoredUser.generated.DoKR9Z9F.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/DeleteIgnoredUser.generated.C_zmziUg.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.aWqxm__8.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.BIrLeiqL.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.BGC1Sh5Z.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CpLcHuj2.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Content.9PyaS4ts.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/externalLink.DEyflpK_.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Popout.C5W0i99E.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/ViewFullscreen.DdlmeIWg.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Rotate.FdMvpY9W.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DPSQ5vb7.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/ArrowThickDown.CgzZeLV3.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Lazy.CPc6u57c.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/InputField.B_xQCzXQ.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.svelte_svelte_type_style_lang.Cq0yJ9MU.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.ktId_9Kk.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/AmountField.BXx8YKSY.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CrTG3mvk.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/convert.DFTZRJ01.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/affiliate.DitCHbjw.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.BCpZQnkP.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/prevPath.BF5PQI7P.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/_messages.CiQqQz1O.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Da8r-yMq.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/helpers.Cvyb6wzt.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/nodes/47.DKdTLvk9.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/SlugKuratorGroup.generated.kooJgGwY.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/UserRecentGameList.generated.BtZ0miZp.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Dg_Pz-sq.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DCEhLVxj.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/HoverTooltip.BWU1O_jx.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/percent.Bazw4QXU.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/progress-bar.DmT-D5kF.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/progress-bar-indicator.7bXsE_dS.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/updater.DQXe57WW.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/messages.CRNfMDrs.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/pageSeo.D7mzn32M.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/sanity.DSakeCSP.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/dynamic-import-helper.BheWnx7M.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/jsonScript.84xs9Vds.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/getTrendingTopSportImage.BdXgrRdQ.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.DQzj30Rb.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Slide.DI_ndoh_.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/ArrowTailBackward.CHbRrZuS.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.gurAvRZ8.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/Seo.zl-orXs2.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/RegisterOauth.svelte_svelte_type_style_lang.BMA_vu_N.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/messages.DgUHX4J1.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/image.Dwm5Q1uD.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.Bonk3i4Q.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.CxYmxdWF.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/RegisterOauth.CU1MsKaD.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.94GmjPRg.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/SocialTwitchColor.BHhD5PdQ.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.8PYoSce5.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.BgYPXtnh.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/index.C-DNTwHC.js"><link rel="modulepreload" as="script" crossorigin="" href="/_app/immutable/chunks/AccordionHeader.WLnWukvM.js"><style>#optimoveSdkWebTool {
+    width: 0;
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: #fff;
+    z-index: 1000;
+}
+
+#optimoveSdkWebTool.open {
+    max-width: 1500px;
+    min-width: 340px;
+    height: 100vh;
+}
+
+#optimoveSdkWebTool.open.ag-theme-balham {
+    width: 500px;
+    display: block;
+    z-index: 10000;
+    -webkit-box-shadow: -3px 0 10px 0 rgba(200, 200, 200, 0.5);
+    box-shadow: -3px 0 10px 0 rgba(200, 200, 200, 0.5);
+}
+
+#optimovePanelHead.panel-heading {
+    padding: 16px 15px;
+}
+
+#optimovePanelHead .popupDiv {
+    padding-left: 334px;
+    position: relative;
+}
+
+#optimovePanelHead .popupDiv .popup {
+    position: absolute;
+    visibility: hidden;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup {
+    visibility: visible;
+    display: block;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+    width: 109px;
+    height: 84px;
+    z-index: 1;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockRightPicDiv {
+    height: 28px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockRightPicDiv .dockText {
+    display: inline;
+    padding-left: 6px;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockRightPicDiv:hover {
+    background-color: #ECEFF1;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockLeftPicDiv {
+    height: 28px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockLeftPicDiv .dockText {
+    display: inline;
+    padding-left: 6px;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockLeftPicDiv:hover {
+    background-color: #ECEFF1;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockBottomPicDiv {
+    height: 28px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockBottomPicDiv .dockText {
+    display: inline;
+    padding-left: 6px;
+}
+
+#optimovePanelHead .popupDiv .popup.showPopup .dockBottomPicDiv:hover {
+    background-color: #ECEFF1;
+}
+
+#optimovePanelHead .popup.popupNotShow {
+    visibility: hidden;
+}
+
+#optimovePanelHead .popup.showPopup {
+    visibility: visible;
+    display: block;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+    width: 109px;
+    height: 83px;
+}
+
+#optimoveSdkWebTool.open.ag-theme-balham .ag-header-cell {
+    padding-right: 0px !important;
+}
+
+#optimoveSDKDragger {
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    z-index: 1;
+    cursor: w-resize;
+}
+
+#optimoveSdkWebTool .material-icons {
+    cursor: pointer;
+}
+
+#optimoveSdkWebTool .ag-root-wrapper.ag-layout-normal {
+    height: calc(100% - 103px);
+}
+
+#optimoveSdkWebTool.ag-theme-balham .is-not-main {
+    background-color: #ECEFF1;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .errorNotMainRow {
+    background-color: #FFD6C2;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-header-cell {
+    background-color: #CFD8DC;
+    box-sizing: content-box;
+}
+
+#optimoveSdkWebTool .ag-header-cell-text {
+    color: #455A64;
+    text-align: left;
+    font: Bold 12px/14px Roboto;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-cell {
+    text-align: left;
+    font: Regular 12px/14px Roboto;
+    letter-spacing: 0;
+    color: #37474F;
+    opacity: 1;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-cell .fa-angle-right,
+#optimoveSdkWebTool.ag-theme-balham .ag-cell .fa-angle-down {
+    width: 18px;
+    height: 18px;
+    padding-right: 10px;
+    color: #37474F;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-cell .fa-exclamation-circle {
+    padding-right: 20px;
+    width: 16px;
+    height: 17px;
+    color: #FF5500;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-cell.mainRowClass.optDateCell.optHasError {
+    color: #FF5500;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-cell.mainRowClass.mainRowClassEventId.optHasError {
+    color: #FF5500;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-cell.mainRowClass.mainRowClassEventName.optHasError {
+    color: #FF5500;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-cell.notMainDateRowClass {
+    left: 26px !important;
+    white-space: normal !important;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-cell.notMainDateRowClass.optParametersWarning {
+    color: #212121 !important;
+    font-weight: bold !important;
+    left: 26px !important;
+}
+
+#optimoveSdkWebTool .cell-wrap-text {
+    white-space: normal !important;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-cell.notMainDateRowClass.optNotExistWarning {
+    left: 26px !important;
+    left: 26px !important;
+    white-space: nowrap !important;
+    color: #CF4500;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-cell.notMainRowClass.notMainRowClassEventId {
+    left: 160px !important;
+    font-weight: bold;
+    white-space: normal !important;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-cell.notMainRowClass.notMainRowClassEventId.optHasError {
+    left: 160px !important;
+    font-weight: normal;
+    white-space: normal !important;
+}
+
+#optimoveSdkWebTool .ag-overlay-loading-center {
+    text-align: center;
+    font: Bold 24px/28px Roboto;
+    letter-spacing: 0;
+    color: #F2F0F0;
+    opacity: 1;
+}
+
+#optimoveSdkWebTool .cell-parameter-value {
+    width: 540px !important;
+    ;
+}
+
+#optimoveSdkWebTool .ag-full-width-row {
+    padding-left: 8px !important;
+    padding-top: 16px !important;
+}
+
+#optimoveSdkWebTool .optimoveTopHeadLine {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#optimoveSdkWebTool .optimoveTopHeadLine .optimoveWebToolBtnClose {
+    box-shadow: none;
+}
+
+#optimoveSdkWebTool .optimoveTopHeadLine .optimoveWebToolBtnClose i {
+    font-size: 17px;
+    color: #5F7C8A;
+}
+
+#optimoveSdkWebTool .optimoveTopHeadLine .positionButtonPic {
+    padding-right: 10px;
+}
+
+#optimoveSdkWebTool .optimoveTopHeadLineText {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8px;
+    color: #424242;
+    text-align: left;
+    font: Light 18px/18px Roboto;
+    letter-spacing: 0;
+    opacity: 1;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#optimoveSdkWebTool .optimoveBottomHeadLineText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0 5px;
+    text-align: left;
+    font: Regular 12px/16px Roboto;
+    letter-spacing: 0;
+    color: #546E7A;
+    opacity: 1;
+}
+
+#optimoveSdkWebTool .opvArrowNoParams {
+    visibility: hidden;
+}
+
+#optimoveSdkWebTool .btn-link.opt-btn-link {
+    padding-top: 5px;
+    padding-left: 0px;
+    border: 0;
+    cursor: pointer;
+    color: #00AAFF;
+    font-size: 12px;
+    font-weight: 700;
+    user-select: none;
+    text-shadow: none;
+    background-color: white !important;
+}
+
+#optimoveSdkWebTool .btn-link.opt-btn-link:hover {
+    color: #00699E !important;
+    text-decoration: none;
+}
+
+#optimoveSdkWebTool .opt-btn-link.btn-link.disable-btn:hover {
+    color: #B0BEC5 !important;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-header-cell::after,
+.ag-theme-balham .ag-header-group-cell::after {
+    border-right: none;
+}
+
+#optimoveSdkWebTool .ag-row-hover {
+    background-color: #F5F7F7 !important;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-row-selected.opti-row-class {
+    background-color: white !important;
+    border-color: #d9dcde;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-root {
+    border: 0px !important;
+}
+
+#optimoveSdkWebTool.ag-theme-balham .ag-overlay-loading-center {
+    border: 0px !important;
+}</style><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10969022778/?random=1730163044801&amp;cv=11&amp;fst=1730163044801&amp;bg=ffffff&amp;guid=ON&amp;async=1&amp;gtm=45be4ao0v893150034z8891480485za201zb891480485&amp;gcd=13l3l3l3l1l1&amp;dma=0&amp;tag_exp=101533422~101823848~101925629&amp;u_w=375&amp;u_h=667&amp;url=https%3A%2F%2Fstake.us%2F&amp;hn=www.googleadservices.com&amp;frm=0&amp;tiba=Stake.us%20-%20The%20Leading%20Social%20Casino.%20Fun%20%26%20Free%20to%20Play&amp;npa=0&amp;pscdl=noapi&amp;auid=832057328.1725584903&amp;fdr=QA&amp;rfmt=3&amp;fmt=4"></script></head>
+  <body>
+    <!-- The application will be rendered inside this element,
+	     because `src/client.js` references it -->
+    <div id="svelte">   <div style="display: none"></div>   <div data-layout="" class="wrap svelte-844n9s">    <div data-layout="" class="main-content svelte-844n9s"><div class="wrap svelte-sf88y2"></div> <div class="ctainer svelte-1nt2705" data-layout=""><div class="sizer svelte-1nt2705"></div></div> <div data-nosnippet="" data-layout="" class="navigation svelte-1nt2705 mobile" style="--header-zIndex: 100; padding-right: 6px;"><div class="group variant-undefined svelte-ntdiml" style="height: 100%; justify-content:center; position:relative;"><div class="ctainer svelte-ntdiml"><div class="navigation-container svelte-1nt2705 authenticated">  <div class="stack x-flex-start y-center gap-smaller padding-none direction-horizontal padding-left-auto padding-top-auto padding-bottom-auto padding-right-auto svelte-1cd1boi"><div class="mobile"><div class="image-focus svelte-1bax0ph"><a data-test="home-button" class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-white betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:outline-none text-sm leading-none [&amp;_svg]:text-grey-200 [&amp;:hover>svg]:text-white !bg-transparent !text-white [&amp;_svg]:!text-white" href="/" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off" aria-label="Home"><div class="wrap normal svelte-1y9pixq" data-content="sweeps-hide"><svg id="Logo" width="16" height="26" viewBox="0 0 16 26" fill="none" xmlns="http://www.w3.org/2000/svg" class="svelte-md2ju7"><path fill="#0063D9" d="M13.2755 10.2704C13.131 10.2889 12.9848 10.3018 12.8385 10.3018C11.2295 10.3074 11.1258 9.48343 11.1258 9.48343C11.1258 9.48343 13.0051 8.07809 12.9996 6.75237C12.9977 6.06174 12.4793 4.15647 9.56676 4.16758C5.52479 4.18239 3.32327 6.08951 3.33623 9.53157C3.33994 10.45 3.97687 11.2258 4.9545 11.9423H13.2755V10.2704Z"></path><path fill="#E8F7FF" d="M11.1258 9.48343C11.1258 9.48343 11.1739 9.4464 11.2554 9.37975L11.0887 8.86686L10.8684 9.54639H10.1537L10.7314 9.96669L10.5111 10.6462L11.0887 10.2259L11.6664 10.6462L11.4461 9.96669L11.4572 9.95929C11.1591 9.73525 11.1258 9.48343 11.1258 9.48343Z"></path><path fill="#E8F7FF" d="M11.4461 7.10231L12.0238 6.68386H11.3091L11.0887 6.00433L10.8684 6.68386H10.1537L10.7314 7.10231L10.5111 7.78369L11.0887 7.36338L11.6664 7.78369L11.4461 7.10231Z"></path><path fill="#E8F7FF" d="M11.0887 4.49901L11.6664 4.91931L11.5535 4.57307C11.3146 4.45272 11.0369 4.35273 10.7166 4.28237L10.5092 4.91931L11.0869 4.49901H11.0887Z"></path><path fill="#E8F7FF" d="M8.22252 9.54638L8.00218 8.86686L7.78184 9.54638H7.06714L7.64483 9.96669L7.42449 10.6462L8.00218 10.2259L8.57987 10.6462L8.35953 9.96669L8.93722 9.54638H8.22252Z"></path><path fill="#E8F7FF" d="M8.00218 6.00433L7.78184 6.68386H7.06714L7.64483 7.10231L7.42449 7.78369L8.00218 7.36338L8.57987 7.78369L8.35953 7.10231L8.93722 6.68386H8.22252L8.00218 6.00433Z"></path><path fill="#E8F7FF" d="M8.00218 4.49901L8.57987 4.91931L8.35953 4.23979L8.36509 4.23608C8.10217 4.26571 7.85035 4.30459 7.6078 4.35088L7.42264 4.91931L8.00033 4.49901H8.00218Z"></path><path fill="#E8F7FF" d="M5.13595 9.54638L4.91562 8.86686L4.69528 9.54638H3.98057L4.55826 9.96669L4.33793 10.6462L4.91562 10.2259L5.49331 10.6462L5.27297 9.96669L5.85066 9.54638H5.13595Z"></path><path fill="#E8F7FF" d="M4.33793 7.78369L4.91562 7.36338L5.49331 7.78369L5.27297 7.10416L5.85066 6.68386H5.13595L4.91562 6.00433L4.69528 6.68386H4.01205C4.01205 6.68386 4.0065 6.69497 4.00279 6.69867L4.56011 7.10231L4.33978 7.78184L4.33793 7.78369Z"></path><path fill="#F50000" d="M10.0352 17.8137H2.34749V18.6783C3.02146 18.2395 3.85652 17.9784 4.87303 17.9747C6.21542 17.9692 6.41724 19.1301 6.41909 19.3875C6.41909 19.3875 5.98583 19.5097 5.42665 19.8208H11.6701C11.5239 19.0449 10.9091 18.4025 10.0352 17.8137Z"></path><path fill="#F50000" d="M6.20801 15.8343C4.99894 15.2603 3.77135 14.6475 2.72892 13.9124V15.8343H6.20801Z"></path><path fill="#F50000" d="M12.0645 15.8343H13.2755V13.8272H8.28918C9.57046 14.4623 10.911 15.1085 12.0645 15.8343Z"></path><path fill="#F50000" d="M11.2739 22.237V21.8279H3.4214C3.14367 22.3796 2.96407 23.0406 2.96592 23.835H10.0574C10.5536 23.3998 10.9795 22.8721 11.2739 22.237Z"></path><path fill="white" d="M3.33808 7.39672C3.32512 3.95465 5.52664 2.04753 9.56861 2.03272C12.4793 2.02161 12.9977 3.92503 13.0014 4.61751C13.007 5.94323 11.1276 7.34858 11.1276 7.34858C11.1276 7.34858 11.2313 8.17252 12.8403 8.16697C14.4493 8.16141 16.0158 7.09861 16.0065 4.43976C15.9936 1.38467 12.7959 -0.0114099 9.63342 -0.000300447C6.98753 0.010809 -0.0262165 0.381123 -0.000294551 7.34672C0.0219243 13.5347 11.6887 14.079 11.7035 18.0414C11.7201 22.3444 6.89124 23.5017 5.26372 23.5091C3.63804 23.5146 2.96777 22.3463 2.96407 21.7056C2.95111 18.221 6.41724 17.2508 6.41724 17.2508C6.41724 16.9934 6.21357 15.8325 4.87118 15.838C1.41616 15.851 0.0385884 18.8246 0.0496978 21.7297C0.0589556 24.1997 1.80498 25.7421 4.43977 25.7328C9.47974 25.7143 15.1622 23.2536 15.1418 17.7914C15.1233 12.6829 3.3529 11.348 3.33808 7.39672Z"></path></svg></div></a></div></div> </div> <div class="balance-toggle svelte-51jofe" data-test="balance-toggle"><div class="coin-toggle svelte-1hjozqf"><div class="wrapper currency-view-compact svelte-1hjozqf"> <div class="dropdown svelte-1iau4lg"><button type="button" tabindex="0" class="inline-flex relative items-center gap-2 justify-center font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-grey-700 text-white betterhover:hover:bg-grey-900 betterhover:hover:text-white focus-visible:outline-white text-sm leading-none [&amp;_svg]:text-grey-200 [&amp;:hover>svg]:text-white py-[0.8125rem] px-[1rem] rounded-sm" aria-label="Open Dropdown" data-test="coin-toggle" data-active-currency="sweeps" data-button-root=""><div class="wrap svelte-lnje3m"><div class="currency svelte-141qgpc" role="presentation"> <span class="content svelte-141qgpc" style=""><span class="weight-semibold line-height-default align-left size-default text-size-default variant-highlighted numeric with-icon-space is-truncate svelte-17v69ua" style="max-width: 16ch;">0.00</span></span> <span class="weight-normal line-height-default align-left size-default text-size-default variant-subtle is-truncate svelte-17v69ua" title="sweeps" style="max-width: 16ch;"><svg fill="none" viewBox="0 0 96 96" class="svg-icon " style=""> <title></title> <path d="M48 96c26.51 0 48-21.49 48-48S74.51 0 48 0 0 21.49 0 48s21.49 48 48 48Z" fill="#6CDE07"></path><path d="M33.602 56.8c3.6 3.6 8.8 6.8 15.6 6.8 5.6 0 8.4-2.8 8.4-5.6 0-3.6-4.4-4.8-10-6.4-8-2-18.4-4-18.4-14.8 0-8 7.2-14.8 18.4-14.8 7.6 0 14.4 2.4 19.2 6.8l-6 7.6c-4-3.6-9.2-5.2-14-5.2-4.4 0-6.8 2-6.8 4.8 0 3.2 4 4.4 9.6 5.6 8 2 18.4 4.4 18.4 15.2 0 8.8-6.4 15.6-19.6 15.6-9.6 0-16-3.2-20.8-7.6l6-8Z" fill="#1F4002"></path></svg></span> </div></div> <span class="dropdown-icon svelte-9n45i2"><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style="transform: rotate(0deg);
+   "> <title></title> <path d="M32.271 49.763 9.201 26.692l6.928-6.93 16.145 16.145 16.144-16.144 6.93 6.929-23.072 23.07h-.005Z"></path></svg></span></button> </div></div></div> <button type="button" tabindex="0" class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-blue-500 text-white betterhover:hover:bg-blue-600 betterhover:hover:text-white focus-visible:outline-white text-sm leading-none shadow-md py-[0.8125rem] px-[1rem]" data-testid="wallet" data-test="wallet" data-analytics="global-navbar-wallet-button" data-content="sweeps-hide" data-button-root="" style="border-radius: 0 var(--radius-base) var(--radius-base) 0;"><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style=""> <title></title> <path fill-rule="evenodd" clip-rule="evenodd" d="M45.71 13.349v.024c0 4.316-2.076 8.146-5.32 10.57H24.61l-.034-.024a13.19 13.19 0 0 1-5.286-10.57c0-7.296 5.914-13.21 13.21-13.21 7.296 0 13.21 5.914 13.21 13.21Zm4.806 22.844H62.23v-3.19a5.31 5.31 0 0 0-5.3-5.31H10.14a5.624 5.624 0 0 1-5.24-5.608v-.014a4.914 4.914 0 0 1 0-.522v.012a5.546 5.546 0 0 1 5.51-5.11h3.85a17.489 17.489 0 0 1-.26-2.88v-.01H7.06A7.07 7.07 0 0 0 0 20.63v37.1a6.14 6.14 0 0 0 6.13 6.13h50.79a5.31 5.31 0 0 0 5.31-5.31v-3.19H50.5c-.092.004-.2.006-.31.006-5.296 0-9.59-4.294-9.59-9.59s4.294-9.59 9.59-9.59c.108 0 .218.002.326.006Zm4.733-22.63v2.89h-4.516a18.36 18.36 0 0 0 .267-2.89h4.25Zm-4.516 2.89-.02.11.017-.11h.003ZM8.66 21.983c0-.98.792-1.774 1.77-1.78h4.91l.044.122a17.843 17.843 0 0 0 1.956 3.618h-6.91a1.77 1.77 0 0 1-1.77-1.77v-.19ZM64 39.943v11.67l-13.488-.002a5.84 5.84 0 0 1-6.094-5.834 5.84 5.84 0 0 1 6.082-5.834H64Zm-13.06 8.5a2.67 2.67 0 0 0 2.67-2.66v-.01a2.67 2.67 0 1 0-2.67 2.67Zm-1.26-28.24a18.188 18.188 0 0 1-1.998 3.74h-.002l-.038.058.04-.058H58v-3.74h-8.32Z"></path></svg></button></div> <section><div class="stack x-flex-end y-center gap-none padding-none direction-horizontal padding-left-auto padding-top-auto padding-bottom-auto padding-right-auto svelte-1cd1boi">  <div class="dropdown svelte-1iau4lg transparent"><button type="button" tabindex="0" class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-white betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:outline-none text-sm leading-none py-[0.8125rem] px-[1rem]" data-test="user-dropdown-toggle" data-analytics="global-navbar-user-icon" data-content="sweeps-hide" aria-label="Open Dropdown" data-button-root=""><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style=""> <title></title> <path fill-rule="evenodd" clip-rule="evenodd" d="M48.322 30.536A19.63 19.63 0 0 0 51.63 19.63 19.619 19.619 0 0 0 32 0a19.63 19.63 0 1 0 16.322 30.536ZM42.197 43.97a26.63 26.63 0 0 0 8.643-5.78A19.84 19.84 0 0 1 64 56.86V64H0v-7.14a19.84 19.84 0 0 1 13.16-18.67 26.63 26.63 0 0 0 29.037 5.78Z"></path></svg> </button> </div> <button type="button" tabindex="0" class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-white betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:outline-none text-sm leading-none p-3" id="notifications-nav-button" aria-label="Toggle Notifications Widget" data-button-root=""><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style=""> <title></title> <path d="M56.213 38.053v10.374H7.787V38.053h6.906v-15.84c.038-8.3 5.912-15.216 13.728-16.86l.112-.02V3.467a3.466 3.466 0 0 1 6.932 0v1.866c7.954 1.668 13.84 8.624 13.84 16.956v15.844l6.908-.08ZM32 63.999c5.73 0 10.374-4.644 10.374-10.374H21.627c0 5.73 4.644 10.374 10.374 10.374H32Z"></path></svg> </button> </div></section></div></div></div> </div> <div class="scrollable scrollY svelte-844n9s mobile" id="scrollable"><div><div class="content-wrapper svelte-vlgd3s"> <div class="page-content" id="main-content"> <div class="parent svelte-19oqf5t no-padding mobile"><div class="ctainer no-height svelte-19oqf5t"><div class="sizer svelte-19oqf5t"></div></div> <div class="ctainer svelte-1bie1bv has-padding"><div class="layout-spacing variant-normal svelte-l4ghjo"><div class="dark-background svelte-11rqddp"><div class="header-wrapper svelte-11rqddp is-mobile"><div class="authenticated-wrapper svelte-11rqddp is-mobile" style="--image: url(\/_app\/immutable\/assets\/abstract-bg\.DBLt5nOh\.svg);"><div class="flex justify-center rounded-xl overflow-hidden relative w-full bg-grey-700 max-w-96 p-2 bg-gradient-to-b from-grey-500 to-grey-700 aspect-video"><div class="flex flex-col justify-center rounded-lg w-full bg-grey-700" style="border: 2px solid rgb(47, 69, 83);"><div class="flex flex-col justify-between p-6 z-10 h-full" style="--colors-positive: #2f4553"><div class="flex justify-between mb-6"><span class="weight-semibold line-height-default align-left size-md text-size-md variant-highlighted with-icon-space svelte-17v69ua">RobDaBob45</span> <svg fill="none" viewBox="0 0 96 96" class="svg-icon " style="width: 1.25rem; height: 1.25rem;"> <title></title> <path d="m48 14.595 8.49 15.75a13.68 13.68 0 0 0 9.66 7.08L84 40.635l-12.39 12.9a13.89 13.89 0 0 0-3.9 9.63c-.046.64-.046 1.281 0 1.92l2.46 17.76-15.66-7.56a15 15 0 0 0-6.51-1.53 15 15 0 0 0-6.6 1.5l-15.57 7.53 2.46-17.76c.034-.62.034-1.24 0-1.86a13.89 13.89 0 0 0-3.9-9.63L12 40.635l17.64-3.21a13.62 13.62 0 0 0 9.84-7.02L48 14.595Zm0-12.54a5.22 5.22 0 0 0-4.59 2.73l-11.4 21.45a5.401 5.401 0 0 1-3.66 2.67l-24 4.32A5.25 5.25 0 0 0 0 38.385a5.13 5.13 0 0 0 1.44 3.6l16.83 17.55a5.16 5.16 0 0 1 1.47 3.6c.016.29.016.58 0 .87l-3.27 24a3 3 0 0 0 0 .72 5.192 5.192 0 0 0 5.19 5.22h.18a5.07 5.07 0 0 0 2.16-.6l21.39-10.32a6.42 6.42 0 0 1 2.76-.63 6.179 6.179 0 0 1 2.79.66l21 10.32c.69.377 1.464.573 2.25.57h.21a5.22 5.22 0 0 0 5.19-5.19c.016-.25.016-.5 0-.75l-3.27-24c-.017-.25-.017-.5 0-.75a5.012 5.012 0 0 1 1.47-3.57l16.77-17.7a5.19 5.19 0 0 0-2.82-8.7l-24-4.32a5.22 5.22 0 0 1-3.69-2.76l-11.4-21.45a5.22 5.22 0 0 0-4.65-2.7Z" fill="#2F4553"></path></svg></div> <div class="w-full" data-content="sweeps-hide"><div class="w-full"><div class="flex justify-between items-center gap-5"><div class="slide svelte-11rqddp"><button type="button" tabindex="0" class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-white betterhover:hover:bg-transparent betterhover:hover:text-white text-sm leading-none [&amp;_svg]:text-grey-200 [&amp;:hover>svg]:text-white focus-visible:outline" data-analytics="homepage-your-vip-progress" data-test="homepage-your-vip-progress" data-button-root="">Your VIP Progress <svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style=""> <title></title> <path d="M8 37.486h30.909L28.665 47.73l6.313 6.314L56 33.022 34.978 12l-6.313 6.314 10.244 10.244H8v8.933-.005Z"></path></svg></button></div> <span class="flex gap-1"><span class="weight-semibold line-height-default align-left size-default text-size-default variant-highlighted numeric with-icon-space svelte-17v69ua">14.93%</span> </span></div> <div value="14.925901544213588" max="100" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow="14.925901544213588" data-value="14.925901544213588" data-state="loading" data-max="100" data-melt-progress="" data-progress-root="" class="relative w-full my-2 overflow-hidden rounded-[10px] bg-grey-400 h-[0.625em]"><div class="h-full w-full shadow-lg rounded-[10px] relative" style="right: 85.07409845578641%; background-color: var(--green-400);"></div></div> <div class="flex justify-between w-full"><div class="miletone-wrap svelte-1ew5yq8"><span class="svelte-1ew5yq8"><svg fill="none" viewBox="0 0 96 96" class="svg-icon " style=""> <title></title> <path d="m48 14.595 8.49 15.75a13.68 13.68 0 0 0 9.66 7.08L84 40.635l-12.39 12.9a13.89 13.89 0 0 0-3.9 9.63c-.046.64-.046 1.281 0 1.92l2.46 17.76-15.66-7.56a15 15 0 0 0-6.51-1.53 15 15 0 0 0-6.6 1.5l-15.57 7.53 2.46-17.76c.034-.62.034-1.24 0-1.86a13.89 13.89 0 0 0-3.9-9.63L12 40.635l17.64-3.21a13.62 13.62 0 0 0 9.84-7.02L48 14.595Zm0-12.54a5.22 5.22 0 0 0-4.59 2.73l-11.4 21.45a5.401 5.401 0 0 1-3.66 2.67l-24 4.32A5.25 5.25 0 0 0 0 38.385a5.13 5.13 0 0 0 1.44 3.6l16.83 17.55a5.16 5.16 0 0 1 1.47 3.6c.016.29.016.58 0 .87l-3.27 24a3 3 0 0 0 0 .72 5.192 5.192 0 0 0 5.19 5.22h.18a5.07 5.07 0 0 0 2.16-.6l21.39-10.32a6.42 6.42 0 0 1 2.76-.63 6.179 6.179 0 0 1 2.79.66l21 10.32c.69.377 1.464.573 2.25.57h.21a5.22 5.22 0 0 0 5.19-5.19c.016-.25.016-.5 0-.75l-3.27-24c-.017-.25-.017-.5 0-.75a5.012 5.012 0 0 1 1.47-3.57l16.77-17.7a5.19 5.19 0 0 0-2.82-8.7l-24-4.32a5.22 5.22 0 0 1-3.69-2.76l-11.4-21.45a5.22 5.22 0 0 0-4.65-2.7Z" fill="#2F4553"></path></svg></span> <span class="weight-semibold line-height-120pct align-left size-default text-size-default variant-subtle with-icon-space svelte-17v69ua">None</span></div><div class="miletone-wrap svelte-1ew5yq8"><span class="svelte-1ew5yq8"><svg fill="none" viewBox="0 0 96 96" class="svg-icon " style=""> <title></title> <path d="m48.002 14.603 8.48 15.757c1.97 3.693 5.495 6.336 9.677 7.068l.08.012 17.64 3.2L71.48 53.56a13.835 13.835 0 0 0-3.884 9.63c0 .653.045 1.292.132 1.922l-.01-.072 2.44 17.758L54.52 75.24c-1.908-.934-4.15-1.48-6.52-1.48s-4.613.546-6.608 1.518l.09-.039-15.637 7.56 2.438-17.759c.078-.555.123-1.197.123-1.85 0-3.741-1.482-7.137-3.887-9.633l.003.003-12.518-12.92 17.638-3.2a13.642 13.642 0 0 0 9.842-7.008l.036-.072L48 14.603Zm0-12.521h-.01a5.194 5.194 0 0 0-4.577 2.733l-.015.027L32 26.28a5.298 5.298 0 0 1-3.648 2.675l-.033.006-23.997 4.32C1.853 33.717 0 35.847 0 38.406a5.19 5.19 0 0 0 1.443 3.596L1.44 42l16.837 17.558a5.057 5.057 0 0 1 1.473 3.578c0 .306-.027.603-.078.894l.006-.03L16.4 87.997a5.199 5.199 0 0 0 5.148 5.918h.012c.045.003.102.003.156.003.834 0 1.623-.207 2.31-.576l-.027.013 21.397-10.32a6.209 6.209 0 0 1 2.76-.638c1.004 0 1.952.236 2.795.653l-.036-.014 21.08 10.319a4.73 4.73 0 0 0 2.249.56h.033-.003c.051.003.111.003.171.003a5.199 5.199 0 0 0 5.144-5.948l.004.027-3.28-23.998a5.055 5.055 0 0 1 1.4-4.32l16.84-17.557a5.177 5.177 0 0 0 1.448-3.6c0-2.55-1.836-4.67-4.257-5.114l-.033-.006-23.997-4.32a5.301 5.301 0 0 1-3.705-2.768l-.015-.03-11.399-21.44a5.204 5.204 0 0 0-4.593-2.759h-.008L48 2.082Z" fill="#C69C6D"></path></svg></span> <span class="weight-semibold line-height-120pct align-left size-default text-size-default variant-subtle with-icon-space svelte-17v69ua">Bronze</span></div></div></div></div></div></div></div></div> </div></div> <section class="svelte-16vfaut stacked"><div class="img-holder svelte-16vfaut stacked"> <img loading="lazy" src="https://mediumrare.imgix.net/sweeps-home-hero-en.png?&amp;dpr=2&amp;format=auto&amp;auto=format&amp;q=80" alt="Social Casino Hero" draggable="false"></div> <div class="gradient svelte-16vfaut stacked"></div> <div class="content svelte-16vfaut stacked"><span class="weight-bold line-height-responsive align-left size-xl text-size-xl responsive-type-scale variant-highlighted with-icon-space svelte-17v69ua">America's Social Casino</span> <span class="weight-normal line-height-default align-left size-default text-size-default variant-subtle with-icon-space svelte-17v69ua">Our social casino has been tailor-made to provide the ultimate social, safe and free gaming experience. With a wide variety of over 200 industry favorite games by the most reputable providers, you won’t find better action anywhere else.</span> <div class="button-wrap svelte-16vfaut"><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-blue-500 text-white betterhover:hover:bg-blue-600 betterhover:hover:text-white focus-visible:outline-white text-sm leading-none shadow-md py-[0.8125rem] px-[1rem] w-full" href="/casino/home" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off">Go to Social Casino</a></div></div></section> <section class="sweeps-content svelte-18bxwpe stacked"><div class="sweeps-content svelte-18vcbn2 stacked"><div class="img-holder svelte-18vcbn2 stacked"> <img loading="lazy" src="https://mediumrare.imgix.net/stake-roulette-en.png?&amp;dpr=2&amp;format=auto&amp;auto=format&amp;w=130&amp;q=50" width="130px" draggable="false"></div> <div class="content-block svelte-18vcbn2"><span class="weight-bold line-height-responsive align-left size-xl text-size-xl responsive-type-scale variant-highlighted with-icon-space svelte-17v69ua">Claim Your SC</span> <span class="weight-normal line-height-default align-left size-default text-size-default variant-subtle with-icon-space svelte-17v69ua">You can claim your free SC via our Daily Login Bonuses, Races, Rakeback, Customer Benefits, Mail a Request or receive a free bonus when you purchase Gold Coins.</span></div></div> <div class="sweeps-content svelte-18vcbn2 stacked"><div class="img-holder svelte-18vcbn2 stacked"> <img loading="lazy" src="https://mediumrare.imgix.net/bar-en.png?&amp;dpr=2&amp;format=auto&amp;auto=format&amp;w=130&amp;q=50" width="130px" draggable="false"></div> <div class="content-block svelte-18vcbn2"><span class="weight-bold line-height-responsive align-left size-xl text-size-xl responsive-type-scale variant-highlighted with-icon-space svelte-17v69ua">No Purchase Necessary</span> <span class="weight-normal line-height-default align-left size-default text-size-default variant-subtle with-icon-space svelte-17v69ua">We are dedicated to building a completely free gaming experience. Play with both Gold Coins and SC immediately without any payment!</span></div></div></section> <section class="svelte-1x87n71"><h3 class="weight-semibold line-height-default align-left size-md text-size-md variant-highlighted with-icon-space svelte-17v69ua">Why Play on Stake.us?</h3> <span class="space" style="width: var(--space-0); height: var(--space-7); display: block; flex-grow: 0;"></span> <div class="content-area svelte-1x87n71"><div class="block-wrap svelte-1x87n71"><div class="content-block svelte-1x87n71"> <img loading="lazy" src="/_app/immutable/assets/industry-fave.sHpKfRVj.png?&amp;dpr=2&amp;format=auto&amp;auto=format&amp;q=50" alt="social casino" draggable="false"> <span class="space" style="width: var(--space-0); height: var(--space-5); display: block; flex-grow: 0;"></span> <h4 class="weight-semibold line-height-default align-left size-base text-size-base variant-highlighted with-icon-space svelte-17v69ua">Industry favorites</h4> <span class="space" style="width: var(--space-0); height: var(--space-5); display: block; flex-grow: 0;"></span> <p class="weight-normal line-height-default align-left size-default text-size-default variant-subtle with-icon-space svelte-17v69ua">With exclusive access to games by both Hacksaw and Pragmatic, you can enjoy the best of the best.</p></div> </div><div class="block-wrap svelte-1x87n71"><div class="content-block svelte-1x87n71"> <img loading="lazy" src="/_app/immutable/assets/instant-coins.Ba9WoFpv.png?&amp;dpr=2&amp;format=auto&amp;auto=format&amp;q=50" alt="social casino" draggable="false"> <span class="space" style="width: var(--space-0); height: var(--space-5); display: block; flex-grow: 0;"></span> <h4 class="weight-semibold line-height-default align-left size-base text-size-base variant-highlighted with-icon-space svelte-17v69ua">Instant Gameplay</h4> <span class="space" style="width: var(--space-0); height: var(--space-5); display: block; flex-grow: 0;"></span> <p class="weight-normal line-height-default align-left size-default text-size-default variant-subtle with-icon-space svelte-17v69ua">Sign up and instantly start playing with both gold coins and SC. No strings attached!</p></div> </div><div class="block-wrap svelte-1x87n71"><div class="content-block svelte-1x87n71"> <img loading="lazy" src="/_app/immutable/assets/social-casino.Cs04aioY.png?&amp;dpr=2&amp;format=auto&amp;auto=format&amp;q=50" alt="social casino" draggable="false"> <span class="space" style="width: var(--space-0); height: var(--space-5); display: block; flex-grow: 0;"></span> <h4 class="weight-semibold line-height-default align-left size-base text-size-base variant-highlighted with-icon-space svelte-17v69ua">A truly social casino</h4> <span class="space" style="width: var(--space-0); height: var(--space-5); display: block; flex-grow: 0;"></span> <p class="weight-normal line-height-default align-left size-default text-size-default variant-subtle with-icon-space svelte-17v69ua">Jump straight in by joining our chat rooms, sharing your favorite games, and enjoy our immersive social experience.</p></div> </div></div> <span class="space" style="width: var(--space-0); height: var(--space-1); display: block; flex-grow: 0;"></span> <a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-blue-500 text-white betterhover:hover:bg-blue-600 betterhover:hover:text-white focus-visible:outline-white text-sm leading-none shadow-md py-[0.9375rem] px-[1.25rem]" href="/casino/home" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off">Go to Social Casino</a></section> <div class="cta svelte-y3x3x2 stacked" data-content="sweeps-hide"><div class="svelte-y3x3x2" style="display: block;"><svg width="12rem" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 946.8 252.3" xml:space="preserve" class="svelte-153n1yj"><style type="text/css">.st0 {
+      fill: #ffffff;
+    }
+    .st1 {
+      fill-rule: evenodd;
+      clip-rule: evenodd;
+      fill: #ffffff;
+    }
+  </style><g><rect x="388" y="0" class="st0" width="1" height="252.3"></rect><g><g transform="translate(0.000000, -10.000000)"><g transform="translate(0.000000, 10.000000)"><path class="st1" d="M57,50c18.7-0.1,37.6,8.2,37.7,26.3c0.1,15.7-9.2,22-18.7,22.1c-9.5,0-10.1-4.8-10.1-4.8S77,85.3,77,77.4
+					c0-4.1-3.1-15.4-20.3-15.3c-23.9,0.1-36.9,11.4-36.9,31.7c0.1,23.4,69.7,31.3,69.8,61.5c0.1,32.3-33.5,46.9-63.3,47
+					c-15.6,0.1-25.9-9.1-26-23.7c-0.1-17.2,8.1-34.8,28.5-34.9c7.9,0,9.1,6.8,9.1,8.4c0,0-20.5,5.7-20.4,26.4
+					c0,3.8,4,10.7,13.6,10.7s38.2-6.9,38.1-32.3c0-23.6-69.1-26.8-69.2-63.4C-0.1,52.3,41.3,50.1,57,50z M218.7,72.8
+					c2.4-1.2,17.7-4.1,17.1,8.1c-0.6,12.2-9.8,33.4-11.1,42.7c12.5-6.3,30.1-27.7,30.1-27.7s12.5,1.7,8.6,9.3
+					c-3.9,7.6-29.1,26.4-29.1,26.4S240,186,273,185.8c18.1-0.1,25.9-8,29.2-10.8c0.9-0.7,1.5-0.9,1.8-0.3c0.7,1.7,1.5,7.3-2.6,11.9
+					c-3.6,4-12.2,8.8-28.9,8.9c-30,0.1-46.7-23.9-51.1-59.7c-3.3,10.5-2.9,27.4-3.5,35.7c-0.9,1.6-17.9,8.4-19.2-3.1
+					c-0.1-0.7-0.1-1.7,0-2.8c-3.1,4.4-7.4,9.1-11.5,9.1c-7.3,0-10.5-6.1-11.8-9.3c-1,1.1-9.1,9.4-19.5,9.4c-4.6,0-11.5-2-14.3-9.3
+					c-5.3,3.9-14.7,9.4-25.5,9.4c-11.6,0-14.3-6.9-14.4-12.8c0-9.2,6.9-36.9,6.9-36.9s-13.5,5.5-18.2,5.6c-6.4,0-9.6-12-9.6-12.3
+					c0-0.2,0.1-0.4,0.4-0.5c3.8-1.4,31.3-10.9,31.3-10.9s5.1-20.3,5.9-22.9c0.7-2.6,4.4-8.2,9-9.8c3-1.1,7.6-2.5,10.2-2.5
+					c1.1,0,1.9,0.3,1.9,0.9s-6.9,30.2-6.9,30.2s14.3-3.4,19.6-3.4c4.1,0,6.2,2.5,4,5.7s-4.9,6.8-6.3,8.5c-1.4,1.7-2.4,2-6,2.7
+					c-4.7,0.9-15.6,3.7-15.6,3.7s-8.5,31.3-8.5,36.6c0,3,0.9,6.5,4.7,6.5c3.6,0,10.6-4.2,15.6-7.5c0.8-24.4,19.7-40.6,34.5-40.7
+					c4.8,0,3.1,4.6,8.4,4.6c0.5,0,3-0.1,3.4-0.1c2.1,0,4.5,0.3,4.5,5.6c0,7.7-4.3,20.3-4.3,28.2c0,5.7,0.8,9.6,2.9,9.6
+					c3.7,0,7.8-5.3,10.7-9.9C205.2,126.6,218.7,78.2,218.7,72.8z M285.5,114.8c10.1-0.9,16.4,4.6,17.6,7.7c1.1,3,1,9.9-1.8,15
+					c-8.8,15.7-30.6,12.9-30.6,12.9s-2.6,12.5,8.8,12.4c9.6,0,13.9-4.8,18-8.7c1.6-0.1,6.8,5.4,4.4,9c-1.8,2.8-11.9,11.3-24.9,11.4
+					c-20.5,0.1-25.7-17.6-23-30.1C257.4,128.8,273.1,115.9,285.5,114.8z M176.8,125.7c-12.3,0-31.1,37.4-16.7,37.3
+					c15.8-0.1,16.7-29.9,16.7-36.6V125.7z M290.8,122.1c-8.4,0.3-17.7,16.2-18.5,23.3c12.5,0.5,19.1-11.7,19.8-16.4
+					C292.7,125.4,292.9,122,290.8,122.1z"></path></g></g></g><g><path class="st0" d="M476.3,99.9h55.6c13.6,0,20,1.5,24.4,6c3.6,3.5,5,7.5,5.7,15.7c0.2,3,0.4,7.4,0.4,10.5c0,5.8-0.4,12.5-1,16.1
+			c-1.1,7.7-6.5,13.7-13.5,15.1c-3.7,0.8-6.6,1-13.4,1h-58.2V99.9z M528.7,148.9c5.3,0,5.7,0,8-0.8c4.7-1.4,6-4.8,6-15.9
+			c0-13.5-2.3-16.3-13.6-16.3h-33.2v33H528.7z"></path><path class="st0" d="M577.9,99.9h55.5c11.4,0,16.4,1,20.1,4.1c3.8,3,5.5,8.5,5.5,17.2c0,12-2.9,16.7-11.1,18.5
+			c8,1.4,10.4,4.7,10.2,14.5v10.1h-19.9v-8c-0.1-7-2-8.4-10.8-8.2h-30v16.2h-19.5V99.9z M628,132.3c9.5,0,11.3-1.2,11.3-7.5
+			c0-4.2-0.4-5.9-1.6-7.2c-1.4-1.5-3.1-1.8-9-1.8h-31.3v16.6H628V132.3z"></path><path class="st0" d="M705.8,99.9h26.3l35.2,64.4h-21.4l-6.4-11.5H698l-6.2,11.5h-22.2L705.8,99.9z M732.7,139.3l-13.9-25.7
+			l-13.7,25.7H732.7z"></path><path class="st0" d="M776.3,99.9h19.6v24h10.2l26.6-24h26.9l-37,31.9l40.5,32.5h-28.5l-29.1-24.7h-9.8v24.7h-19.6V99.9H776.3z"></path><path class="st0" d="M946.1,99.9v14.6h-52v11.1h49v12.7h-49v11.4h52.7v14.6h-72V99.9H946.1z"></path></g></g></svg></div> <div class="svelte-y3x3x2"><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-grey-400 text-white betterhover:hover:bg-grey-300 betterhover:hover:text-white focus-visible:outline-white text-sm leading-none shadow-md py-[0.9375rem] px-[1.25rem]" href="/drake" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off" data-analytics="global-callToAction-learnMore-button">Learn More</a></div></div> <div></div> </div></div></div></div></div>   <footer data-test="footer" data-layout="" class="py-8 bg-grey-800"><div class="parent svelte-1p5gbm2 mobile"><div class="ctainer no-height svelte-1p5gbm2"><div class="sizer svelte-1p5gbm2"></div></div> <div class="ctainer svelte-1p5gbm2"><div class="footer-content w-full m-auto grid gap-6 md:gap-8" data-nosnippet=""><div class="flex flex-col md:flex-row md:justify-between md:items-center gap-3 md:gap-0"><div class="stack x-stretch y-center gap-small padding-none direction-vertical padding-left-auto padding-top-auto padding-bottom-auto padding-right-auto svelte-1cd1boi"><div class="image-focus svelte-1bax0ph"><a href="/"><div class="wrap normal svelte-1y9pixq" data-content="sweeps-hide"><svg id="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 499.9" class="svelte-md2ju7"><path fill="currentColor" d="M64.83,143.69c-.24-66.87,42.51-103.92,121.03-104.21,56.56-.21,66.63,36.77,66.68,50.21.09,25.75-36.4,53.06-36.4,53.06,0,0,2.01,16.01,33.27,15.9,31.25-.12,61.7-20.76,61.51-72.41C310.69,26.9,248.57-.22,187.14,0,135.76.19-.49,7.41,0,142.73c.44,120.21,227.09,130.81,227.37,207.76.31,83.57-93.5,106.09-125.09,106.2-31.6.12-44.61-22.57-44.66-35.02-.25-67.69,67.08-86.54,67.08-86.54-.02-4.99-3.94-27.54-30.02-27.45-67.16.24-93.94,58.04-93.73,114.45.17,47.97,34.09,77.95,85.29,77.76,97.9-.36,208.29-48.15,207.9-154.29-.36-99.25-229.03-125.18-229.31-201.92h0Z"></path><path fill="currentColor" d="M998.12,409.61c-.78-1.89-2.97-1.43-5.87.96-11.1,9.16-36.51,35.14-95.98,35.36-108.35.4-127.15-178.25-127.15-178.25,0,0,82.56-61.7,95.47-86.56s-28.15-30.39-28.15-30.39c0,0-57.76,70.31-98.7,90.98,4.39-30.56,34.65-100.26,36.5-140.35,1.85-40.1-48.23-30.33-56.22-26.48.06,17.5-44.14,176.39-60.24,263.72-9.47,15.11-23,32.48-35.12,32.53-7.01.03-9.59-13.01-9.66-31.66-.1-25.86,14.22-67.3,14.13-92.49-.06-17.43-8.01-18.46-14.88-18.44-1.51,0-9.78.24-11.3.24-17.64.07-11.87-15.07-27.71-15.01-48.69.18-110.69,53.34-113.38,133.59-16.43,10.89-39.43,24.59-51.17,24.64-12.31.04-15.38-11.39-15.41-21.24-.06-17.3,27.99-120.08,27.99-120.08,0,0,35.61-9.14,51.17-12.16,11.76-2.29,15.04-3.14,19.71-8.83,4.67-5.69,13.51-17.42,20.72-27.99,7.21-10.56.13-18.7-13.22-18.66-17.53.07-64.4,11.11-64.4,11.11,0,0,22.51-97.14,22.5-99.12,0-2.04-2.64-2.99-6.34-2.98-8.53.03-23.76,4.61-33.51,8.09-14.91,5.32-27.07,23.61-29.5,32.13s-19.31,75.16-19.31,75.16c0,0-90.31,31.18-102.66,35.87-.81.31-1.28,1.03-1.27,1.77,0,.79,10.35,40.33,31.51,40.25,15.26-.06,59.65-18.23,59.65-18.23,0,0-22.86,91.02-22.75,121.26.07,19.45,9.16,42.24,47.15,42.1,35.41-.13,66.26-18.25,83.57-30.96,9.48,23.97,31.84,30.54,47.11,30.48,34.25-.13,60.69-27.33,63.98-30.97,4.45,10.5,14.91,30.69,38.85,30.6,13.53-.05,27.55-15.28,37.88-29.86-.18,3.65-.15,6.73.13,9.18,4.14,37.68,60.08,15.53,63.06,10.27,1.89-27.24.7-82.97,11.58-117.37,14.43,117.35,69.22,196.28,167.7,195.92,55.06-.2,83.25-16.04,95-29.1,13.55-15.05,10.81-33.51,8.53-39.02h.01ZM525.61,370.93c-47.27.17,14.46-122.46,54.8-122.6.06,15.8-.82,122.41-54.8,122.6Z"></path><path fill="currentColor" d="M909.49,408.52c42.68-.16,75.76-28.26,81.79-37.42,7.83-11.9-9.08-29.85-14.47-29.54-13.47,12.89-27.56,28.5-59.19,28.62-37.25.14-28.81-40.85-28.81-40.85,0,0,71.66,9.26,100.47-42.28,9.21-16.49,9.59-39.3,5.87-49.13-3.79-10-24.55-28-57.73-25.21-40.75,3.43-92.09,45.93-103.38,96.99-9.07,41.03,8.07,99.06,75.43,98.82h.02ZM955.01,236.52c6.7-.23,6.11,10.82,4.3,22.4-2.45,15.67-24.06,55.49-65.14,54,2.78-23.22,33.35-75.44,60.84-76.39h0Z"></path><path fill="currentColor" d="M456.55,479.6c-5.51,0-10.15,4.64-10.15,10.15s4.64,10.15,10.15,10.15,10.15-4.64,10.15-10.15-4.64-10.15-10.15-10.15Z"></path><path fill="currentColor" d="M512.49,480.14c-1.94,2.48-5.18,5.08-9.93,5.08-5.4,0-8.64-2.16-8.64-8.42v-30.34h-16.63v37.15c0,9.61,5.29,16.31,17.17,16.31,8.75,0,14.79-3.89,18.03-7.56v6.26h16.63v-52.16h-16.63v33.69h0Z"></path><path fill="currentColor" d="M562.91,465.13c-5.51-.97-8.32-1.84-8.32-4.21s2.7-3.56,6.59-3.56c6.26,0,12.2,2.7,15.33,5.72l6.37-11.01c-5.62-4.1-13.07-6.91-21.81-6.91-14.47,0-22.35,7.99-22.35,17.17,0,13.28,12.53,15.12,21.38,16.63,5.4.86,8.96,1.84,8.96,4.54,0,2.27-2.05,3.89-7.02,3.89-6.16,0-14.47-3.46-18.36-6.91l-6.91,11.45c5.51,4.86,15.12,7.99,24.4,7.99,15.01,0,23.76-7.34,23.76-17.28,0-13.82-13.17-15.98-22.03-17.49v-.02Z"></path></svg></div></a></div> <span class="weight-normal line-height-default align-left size-default text-size-default variant-subtle with-icon-space svelte-17v69ua">© 2024 Stake.us | All Rights Reserved.</span></div> <ul class="flex gap-x-3 justify-between"><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm leading-none" href="/blog" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon w-6 md:w-4 h-auto text-white" style=""> <title>Blog</title> <path d="M16 2.666v48c0 1.6-1.066 2.666-2.666 2.666-1.6 0-2.666-1.066-2.666-2.666V8h-8v45.334c0 4.534 3.466 8 8 8h50.666V2.668H16v-.002ZM34.666 48H24V26.666h10.666V48Zm18.668 0H40v-8h13.334v8Zm0-13.334H40v-8h13.334v8Zm0-13.332H24v-8h29.334v8Z"></path></svg></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm leading-none" href="https://twitter.com/stakeusa" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="" target="_blank" rel="external noreferrer noopener"><svg fill="currentColor" viewBox="0 0 96 96" class="svg-icon w-6 md:w-4 h-auto text-white" style=""> <title>Twitter</title> <path d="M54.821 42.49 81.607 12h-6.345L51.994 38.47 33.424 12H12l28.088 40.03L12 84h6.345l24.556-27.958L62.516 84H83.94M20.635 16.686h9.748l44.874 62.858h-9.75"></path></svg></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm leading-none" href="https://instagram.com/stakeusa" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="" target="_blank" rel="external noreferrer noopener"><svg fill="currentColor" viewBox="0 0 96 96" class="svg-icon w-6 md:w-4 h-auto text-white" style=""> <title>Instagram</title> <path fill-rule="evenodd" clip-rule="evenodd" d="M71.586.1H24.414A24.414 24.414 0 0 0 0 24.515v47.173A24.212 24.212 0 0 0 24.414 95.9h47.172A24.209 24.209 0 0 0 96 71.687V24.514A24.414 24.414 0 0 0 71.586.101Zm14.487 72.03a13.883 13.883 0 0 1-13.841 14.044H23.808A13.88 13.88 0 0 1 9.927 72.13V23.707a13.881 13.881 0 0 1 13.881-13.68h48.424A13.882 13.882 0 0 1 86.114 23.91l-.04 48.222ZM72.396 28.995a4.802 4.802 0 1 0 0-9.604 4.802 4.802 0 0 0 0 9.604Zm-37.543-.54a23.647 23.647 0 0 1 13.17-3.98A23.607 23.607 0 0 1 71.629 47.92a23.647 23.647 0 1 1-36.776-19.465Zm5.105 31.736A14.529 14.529 0 0 0 62.509 47.92a14.527 14.527 0 1 0-22.551 12.27Z"></path></svg></a> </li></ul></div> <div class="border-solid border-t-2 border-t-grey-500"></div> <div class="footer-grid flex flex-col md:grid gap-3 md:gap-4 w-full m-auto break-words hyphens-auto svelte-xw7h7o"><div class="secondary-accordion level-2 rounded svelte-69p9vw"><div class="header rounded svelte-69p9vw"><div slot="header" class="w-full"><p class="weight-semibold line-height-default align-left size-default text-size-default variant-highlighted with-icon-space svelte-17v69ua">Social Casino</p></div> <div class="arrow svelte-69p9vw"><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style="transform: rotate(90deg);
+   "> <title></title> <path d="M32.271 49.763 9.201 26.692l6.928-6.93 16.145 16.145 16.144-16.144 6.93 6.929-23.072 23.07h-.005Z"></path></svg></div></div> <div class="content svelte-69p9vw render-content"><div><div class="w-full p-4"><ul class="flex flex-col gap-3"><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/casino/home" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Games</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/casino/group/slots" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Slots</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/casino/games/poker" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Poker</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/casino/group/live-dealers" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Live Dealer</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/casino/group/scratch-cards" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Scratch Cards</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/casino/collection/provider" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Providers</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/promotions" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Promotions</span></a> </li></ul></div></div></div></div>  <div class="secondary-accordion level-2 rounded svelte-69p9vw"><div class="header rounded svelte-69p9vw"><div slot="header" class="w-full"><p class="weight-semibold line-height-default align-left size-default text-size-default variant-highlighted with-icon-space svelte-17v69ua">Stake Originals</p></div> <div class="arrow svelte-69p9vw"><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style="transform: rotate(90deg);
+   "> <title></title> <path d="M32.271 49.763 9.201 26.692l6.928-6.93 16.145 16.145 16.144-16.144 6.93 6.929-23.072 23.07h-.005Z"></path></svg></div></div> <div class="content svelte-69p9vw render-content"><div><div class="w-full p-4"><ul class="flex flex-col gap-3"><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/casino/games/plinko" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Plinko</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/casino/games/mines" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Mines</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/casino/games/dice" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Dice</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/casino/games/crash" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Crash</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/casino/games/limbo" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Limbo</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/casino/games/hilo" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Hilo</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/casino/group/stake-originals" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>All Stake Originals</span></a> </li></ul></div></div></div></div> <div class="secondary-accordion level-2 rounded svelte-69p9vw"><div class="header rounded svelte-69p9vw"><div slot="header" class="w-full"><p class="weight-semibold line-height-default align-left size-default text-size-default variant-highlighted with-icon-space svelte-17v69ua">Support</p></div> <div class="arrow svelte-69p9vw"><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style="transform: rotate(90deg);
+   "> <title></title> <path d="M32.271 49.763 9.201 26.692l6.928-6.93 16.145 16.145 16.144-16.144 6.93 6.929-23.072 23.07h-.005Z"></path></svg></div></div> <div class="content svelte-69p9vw render-content"><div><div class="w-full p-4"><ul class="flex flex-col gap-3"><li><a class="inline-flex relative items-center justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm gap-1 whitespace-break-spaces leading-[120%]" href="https://help.stake.us" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="" target="_blank" rel="external noreferrer noopener"><span class="text-wrap">Help Center</span> <svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon text-grey-300" style=""> <title></title> <path fill-rule="evenodd" clip-rule="evenodd" d="M10.823 53.176h42.353V39.941h7.059v20.294H3.765V3.765h20.293v7.058H10.823v42.353Zm28.236-42.353V3.765h21.176V24.94h-7.059v-9.123L27.88 41.115l-4.994-4.995 25.297-25.296H39.06Z"></path></svg></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/provably-fair" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Fairness</span></a> </li><li><a class="inline-flex relative items-center justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm gap-1 whitespace-break-spaces leading-[120%]" href="https://www.gamingaddictsanonymous.org" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="" target="_blank" rel="external noreferrer noopener"><span class="text-wrap">Addicted to Gaming?</span> <svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon text-grey-300" style=""> <title></title> <path fill-rule="evenodd" clip-rule="evenodd" d="M10.823 53.176h42.353V39.941h7.059v20.294H3.765V3.765h20.293v7.058H10.823v42.353Zm28.236-42.353V3.765h21.176V24.94h-7.059v-9.123L27.88 41.115l-4.994-4.995 25.297-25.296H39.06Z"></path></svg></a> </li><li><button type="button" tabindex="0" class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm intercom-a-go-go whitespace-break-spaces leading-[120%]" data-button-root=""><span>Live Support</span></button> </li></ul></div></div></div></div> <div class="secondary-accordion level-2 rounded svelte-69p9vw"><div class="header rounded svelte-69p9vw"><div slot="header" class="w-full"><p class="weight-semibold line-height-default align-left size-default text-size-default variant-highlighted with-icon-space svelte-17v69ua">About Us</p></div> <div class="arrow svelte-69p9vw"><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style="transform: rotate(90deg);
+   "> <title></title> <path d="M32.271 49.763 9.201 26.692l6.928-6.93 16.145 16.145 16.144-16.144 6.93 6.929-23.072 23.07h-.005Z"></path></svg></div></div> <div class="content svelte-69p9vw render-content"><div><div class="w-full p-4"><ul class="flex flex-col gap-3"><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/vip-club" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>VIP Club</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/affiliate" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Affiliate</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/policies/privacy" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Privacy Policy</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/policies/terms" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Terms of Service</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/policies/responsible-play" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Responsible Play</span></a> </li></ul></div></div></div></div>  <div class="secondary-accordion level-2 rounded svelte-69p9vw"><div class="header rounded svelte-69p9vw"><div slot="header" class="w-full"><p class="weight-semibold line-height-default align-left size-default text-size-default variant-highlighted with-icon-space svelte-17v69ua">How-to Guides</p></div> <div class="arrow svelte-69p9vw"><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style="transform: rotate(90deg);
+   "> <title></title> <path d="M32.271 49.763 9.201 26.692l6.928-6.93 16.145 16.145 16.144-16.144 6.93 6.929-23.072 23.07h-.005Z"></path></svg></div></div> <div class="content svelte-69p9vw render-content"><div><div class="w-full p-4"><ul class="flex flex-col gap-3"><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/blog/category/how-to-guides" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>How-to Guides</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/blog/online-social-casino-guide" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Social Casino Guide</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/blog/how-to-play-slot-games" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Slot Game Guide</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/blog/how-to-play-live-dealer-games" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Live Dealer Guide</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/blog/stake-customer-support-guide" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Customer Support Guide</span></a> </li><li><a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm whitespace-break-spaces leading-[120%]" href="/blog/vip-program-levels-benefits-rewards" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off"><span>Stake VIP Guide</span></a> </li></ul></div></div></div></div> </div> <div class="border-solid border-t-2 border-t-grey-500"></div> <div class="logo-wrapper svelte-1rvpqmm">   <img width="116" height="35" src="/_app/immutable/assets/hub88.CvKNQs2Q.svg" draggable="false" alt="Hub88 Preferred Aggregator" class="svelte-1rvpqmm"> <img width="116" height="35" src="/_app/immutable/assets/responsible-gaming.ChqCwbZT.svg" draggable="false" alt="Responsible Gaming" class="svelte-1rvpqmm"> <img width="129" height="36" src="/_app/immutable/assets/betblocker.-t2TDIRS.svg" draggable="false" alt="BetBlocker" class="svelte-1rvpqmm"> <img width="116" height="35" src="/_app/immutable/assets/21plus.CLDaxjOR.svg" draggable="false" alt="21+ logo" class="svelte-1rvpqmm"></div> <div class="border-solid border-t-2 border-t-grey-500"></div> <div class="site-badges svelte-g3yerg"> <div class="image-focus svelte-1bax0ph"><a href="/sponsorships/stake-f1-team"><img class="image svelte-hhdrmg" src="/_app/immutable/assets/f1-logo.C8neaUBw.svg" draggable="false" alt="Official Co-Title Partner of the Alfa Romeo Formula 1"></a></div> <div class="image-focus svelte-1bax0ph"><a href="/sponsorships/everton"><img class="image svelte-hhdrmg" src="/_app/immutable/assets/everton-logo.DjZkLatD.svg" draggable="false" alt="Everton main partner"></a></div> <div class="image-focus svelte-1bax0ph"><a href="/sponsorships/ufc"><img class="image svelte-hhdrmg" src="/_app/immutable/assets/ufc.E2bHySRh.svg" draggable="false" alt="UFC logo"></a></div></div> <div class="border-solid border-t-2 border-t-grey-500"></div> <p class="weight-normal line-height-150pct align-center size-default text-size-default variant-subtle with-icon-space svelte-17v69ua">Stake is committed to responsible social play, for more information visit <a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-white betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:outline-none text-sm leading-none [&amp;_svg]:text-grey-200 [&amp;:hover>svg]:text-white" href="https://www.Gamingaddictsanonymous.org/" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="" target="_blank" rel="external noreferrer noopener">Gamingaddictsanonymous.org</a></p> <p class="weight-normal line-height-150pct align-center size-default text-size-default variant-subtle with-icon-space svelte-17v69ua">Stake.us is owned and operated by Sweepsteaks Limited, registration number HE436222, registered address 28  Oktovriou, 313 Omrania BLD, Limassol, CY-3105, Cyprus. Contact us at support@stake.us.  </p> <span class="weight-normal line-height-default align-center size-default text-size-default variant-subtle with-icon-space svelte-17v69ua"><span>NO PURCHASE NECESSARY to enter Sweepstakes. SWEEPSTAKES ARE VOID WHERE PROHIBITED BY LAW. For detailed rules, see <a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-white betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:outline-none text-sm leading-none [&amp;_svg]:text-grey-200 [&amp;:hover>svg]:text-white" href="/policies/terms" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off">terms of service</a></span></span> <div class="contact-emails text-center svelte-1kv3nkx"><span><span class="weight-normal line-height-default align-left size-default text-size-default variant-subtle with-icon-space svelte-17v69ua">Support</span> <span class="weight-normal line-height-default align-left size-default text-size-default variant-highlighted with-icon-space svelte-17v69ua">support@stake.us</span></span>
+  |
+  <span><span class="weight-normal line-height-default align-left size-default text-size-default variant-subtle with-icon-space svelte-17v69ua">Partners</span> <span class="weight-normal line-height-default align-left size-default text-size-default variant-highlighted with-icon-space svelte-17v69ua">partners@stake.us</span></span>
+  |
+  <span><span class="weight-normal line-height-default align-left size-default text-size-default variant-subtle with-icon-space svelte-17v69ua">Press</span> <span class="weight-normal line-height-default align-left size-default text-size-default variant-highlighted with-icon-space svelte-17v69ua">press@stake.us</span></span></div></div> </div></div></footer></div></div> <div data-layout="" class="wrap svelte-nwzlt2" style="z-index: 1300;"><div class="button-wrap svelte-1wl0aiq" data-analytics="mobile-navbar-browser"><button type="button" tabindex="0" class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-white betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:outline-none text-xs leading-none [&amp;_svg]:text-grey-200 [&amp;:hover>svg]:text-white button" data-button-root=""><div class="content svelte-1wl0aiq"> <div class="mobile-icon-style svelte-1wl0aiq"><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style=""> <title></title> <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h23.867c-3.947 3.173-7.014 7.333-8.827 12.107H0V0Zm0 51.867h41.707v12.106H0V51.867Zm13.36-25.92H0v12.106h17.867a28.537 28.537 0 0 1-4.48-12.106h-.027ZM57.014 38.32l6.987 10.96-8.08 5.173-7.12-11.146c-2.24.773-4.64 1.2-7.12 1.2-12.24 0-22.187-9.947-22.187-22.187 0-12.24 9.947-22.187 22.187-22.187 12.24 0 22.187 9.947 22.187 22.187 0 6.293-2.64 11.947-6.854 16ZM41.681 9.733c-6.933 0-12.587 5.654-12.587 12.587s5.654 12.587 12.587 12.587 12.587-5.654 12.587-12.587S48.614 9.733 41.68 9.733Z"></path></svg></div> <span>Browse</span></div></button></div> <div class="button-wrap svelte-1wl0aiq" data-analytics="mobile-navbar-chat"><button type="button" tabindex="0" class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-white betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:outline-none text-xs leading-none [&amp;_svg]:text-grey-200 [&amp;:hover>svg]:text-white button" data-button-root=""><div class="content svelte-1wl0aiq"> <div class="mobile-icon-style svelte-1wl0aiq"><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style=""> <title></title> <path d="M59.732 0H4.266A4.266 4.266 0 0 0 0 4.266V60c0 2.21 1.79 4 4 4h56c2.21 0 4-1.79 4-4V4.266A4.266 4.266 0 0 0 59.734 0h-.002ZM17.998 50.24l-8-8 4.266-4.266 3.866 3.894 9.734-9.866 4.266 4.266L17.998 50.24Zm0-20-8-8 4.134-4.374 3.866 3.894 9.866-9.894 4.266 4.266L17.998 30.24Zm36 14.774h-14v-6.026h14v6.026Zm0-20h-14v-6.026h14v6.026Z"></path></svg></div> <span>Games</span></div></button></div> <div class="button-wrap svelte-1wl0aiq" data-analytics="mobile-navbar-item"><button type="button" tabindex="0" class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-white betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:outline-none text-xs leading-none [&amp;_svg]:text-grey-200 [&amp;:hover>svg]:text-white button" aria-label="mobile chat toggle button" data-button-root=""><div class="content svelte-1wl0aiq"> <div class="mobile-icon-style svelte-1wl0aiq"><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style=""> <title></title> <path d="M32 1.916c-.288-.01-.628-.016-.97-.016C14.254 1.9.586 15.206.002 31.84L0 31.894A28.655 28.655 0 0 0 7.476 51.15l-.02-.024c-.688 4.028-1.89 7.636-3.552 10.974l.102-.228c4.634-.396 8.878-1.73 12.654-3.81l-.164.082c4.474 2.35 9.774 3.728 15.398 3.728h.112H32c.3.01.654.016 1.008.016 16.768 0 30.428-13.31 30.99-29.942l.002-.052C63.414 15.206 49.746 1.902 32.97 1.902c-.342 0-.68.006-1.018.016l.05-.002H32ZM16.138 37.604a5.948 5.948 0 1 1 0-11.896 5.948 5.948 0 0 1 0 11.896Zm15.862 0a5.948 5.948 0 1 1 0-11.896 5.948 5.948 0 0 1 0 11.896Zm15.862 0a5.948 5.948 0 1 1 0-11.896 5.948 5.948 0 0 1 0 11.896Z"></path></svg></div> <span>Chat</span></div></button></div> <div class="button-wrap svelte-1wl0aiq active" data-analytics="mobile-navbar-casino-link"><button type="button" tabindex="0" class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-white betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:outline-none text-xs leading-none [&amp;_svg]:text-grey-200 [&amp;:hover>svg]:text-white button" data-button-root=""><div class="content svelte-1wl0aiq"> <div class="mobile-icon-style svelte-1wl0aiq active"><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style=""> <title></title> <path d="M12.265 47.726.21 14.603a3.574 3.574 0 0 1 2.108-4.553l.024-.007 19.282-7.015a3.55 3.55 0 0 1 4.553 2.082l.008.024.694 1.92L12.69 46.073a8.9 8.9 0 0 0-.418 1.598l-.008.056ZM63.79 15.511 48.002 58.93a3.529 3.529 0 0 1-4.558 2.1l.024.009-21.948-8.001a3.58 3.58 0 0 1-2.124-4.585l-.008.024 15.787-43.39a3.555 3.555 0 0 1 4.559-2.126l-.024-.008 21.948 8a3.58 3.58 0 0 1 2.124 4.585l.008-.024v-.002ZM50.457 32.685l-1.386-3.254a1.789 1.789 0 0 0-2.333-.956l.012-.004-2.666 1.174a1.787 1.787 0 0 1-2.316-.948l-.004-.012-1.146-2.667a1.764 1.764 0 0 0-2.332-.93l.012-.004-3.28 1.386a1.738 1.738 0 0 0-.929 2.33l-.004-.01 3.92 9.255a1.816 1.816 0 0 0 2.359.928l-.012.005 9.227-3.947a1.737 1.737 0 0 0 .794-2.356l.004.01h.08Z"></path></svg></div> <span>Casino</span></div></button></div></div></div> <div style="display: none;"></div> </div>      <div id="svelte-announcer" aria-live="assertive" aria-atomic="true" style="position: absolute; left: 0px; top: 0px; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); overflow: hidden; white-space: nowrap; width: 1px; height: 1px;"></div></div>
+  <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;8d9f2c2a386f77ba&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}},&quot;version&quot;:&quot;2024.10.4&quot;,&quot;token&quot;:&quot;a73623c6ad5d455497531219a0f2180a&quot;}" crossorigin="anonymous"></script>
+
+
+<div data-portal="true"><div><div class="notification-list svelte-18t4teo" style="z-index: 1700"></div></div></div><div data-portal="true"><div><div class="h-0 overflow-hidden"><div class="flex flex-col h-full"><div class="header svelte-1et8zee" data-block-touch-pan="true"><div class="navigation-header svelte-1mo7y74"><div class="dropdown svelte-1iau4lg transparent"><div class="navigation-button-wrapper"><button type="button" tabindex="0" class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-white betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:outline-none text-sm leading-none [&amp;_svg]:text-grey-200 [&amp;:hover>svg]:text-white" aria-label="Open Dropdown" data-button-root=""><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style=""> <title></title> <path d="M.001 3.549v7.12h7.12v49.786h6.214c.778-3.122 3.556-5.398 6.866-5.398a7.07 7.07 0 0 1 6.856 5.348l.01.048h9.974c.778-3.122 3.556-5.398 6.866-5.398a7.07 7.07 0 0 1 6.856 5.348l.01.048h6.16V10.665h7.066v-7.12L.001 3.549Zm35.546 37.334h-17.76v-5.334h17.76v5.334Zm10.668-14.214H17.789v-5.334h28.426v5.334Z"></path></svg> <span>Bet Slip</span>  <svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style="transform: rotate(0deg);
+   "> <title></title> <path d="M32.271 49.763 9.201 26.692l6.928-6.93 16.145 16.145 16.144-16.144 6.93 6.929-23.072 23.07h-.005Z"></path></svg> </button></div> </div> <div class="hoverable svelte-bbyuql"><button type="button" tabindex="0" class="inline-flex relative items-center gap-2 justify-center font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-white betterhover:hover:bg-grey-900 betterhover:hover:text-white focus-visible:outline-white text-sm leading-none [&amp;_svg]:text-grey-200 [&amp;:hover>svg]:text-white py-[0.8125rem] px-[1rem] rounded-full" aria-label="Close Right Sidebar" data-button-root=""><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style=""> <title></title> <path d="m54.827 16.187-7.014-7.014L32 24.987 16.187 9.173l-7.014 7.014L24.987 32 9.173 47.813l7.014 7.014L32 39.013l15.813 15.814 7.014-7.014L39.013 32l15.814-15.813Z"></path></svg></button> </div></div> <div class="tabs svelte-1n6ls3t"><div class="tabs-wrapper scrollX svelte-1vkrcyy"><div class="slider variant-light svelte-1vkrcyy"><div class="content-wrapper svelte-1vkrcyy"><button type="button" tabindex="0" class="inline-flex relative items-center gap-2 justify-center font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-white betterhover:hover:bg-grey-400 betterhover:hover:text-white focus-visible:outline-white text-sm leading-none [&amp;_svg]:text-grey-200 [&amp;:hover>svg]:text-white py-[0.8125rem] px-[1rem] rounded-full !bg-grey-400 !text-white [&amp;_svg]:!text-white" data-testid="betslip-single" data-test="betslip-single" data-analytics="sports-betSlip-single-tab" data-button-root=""><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style=""> <title></title> <path d="M16.134 63.996.002 47.997a5.474 5.474 0 0 0 1.728-4A5.48 5.48 0 0 0 .003 40l-.002-.002L40 0a5.474 5.474 0 0 0 4 1.728A5.48 5.48 0 0 0 47.996.002L47.998 0l16 16.133a5.474 5.474 0 0 0-1.658 3.934 5.47 5.47 0 0 0 1.657 3.931L64 24 24.002 63.998a5.475 5.475 0 0 0-3.934-1.658 5.47 5.47 0 0 0-3.931 1.658l-.003.002v-.004Z"></path></svg> <span>Single</span></button> <button type="button" tabindex="0" class="inline-flex relative items-center gap-2 justify-center font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-white betterhover:hover:bg-grey-400 betterhover:hover:text-white focus-visible:outline-white text-sm leading-none [&amp;_svg]:text-grey-200 [&amp;:hover>svg]:text-white py-[0.8125rem] px-[1rem] rounded-full" data-testid="betslip-multi" data-test="betslip-multi" data-analytics="sports-betSlip-multi-tab" data-button-root=""><svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style=""> <title></title> <path d="M45.708 9.146 36.562 0a6.408 6.408 0 0 1-4.56 1.898A6.408 6.408 0 0 1 27.442 0L.002 27.44A6.408 6.408 0 0 1 1.898 32 6.408 6.408 0 0 1 0 36.56l9.146 9.146a6.481 6.481 0 0 1 9.14 9.154l.007-.006L27.439 64A6.408 6.408 0 0 1 32 62.102c1.783 0 3.396.726 4.56 1.898L64 36.56A6.408 6.408 0 0 1 62.101 32c0-1.782.727-3.396 1.898-4.56l-9.146-9.146a6.481 6.481 0 0 1-9.14-9.154l-.005.006ZM28.002 40.56 24.561 44l-4.56-4.56 3.44-3.44 4.56 4.56Zm8-8L32.562 36l-4.56-4.56 3.44-3.44 4.56 4.56Zm8-8L40.562 28l-4.56-4.56 3.44-3.44 4.56 4.56Z"></path></svg> <span>Multi</span></button></div></div></div></div> <div class="actions svelte-1n6ls3t"><div class="dropdown svelte-1iau4lg transparent"><button type="button" tabindex="0" class="inline-flex relative items-center gap-2 rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-grey-200 betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:text-white focus-visible:outline-none text-sm leading-none justify-start" aria-label="Open Dropdown" data-button-root=""><span>No Odds Changes Accepted</span> <svg fill="currentColor" viewBox="0 0 64 64" class="svg-icon " style="transform: rotate(0deg);
+   "> <title></title> <path d="M32.271 49.763 9.201 26.692l6.928-6.93 16.145 16.145 16.144-16.144 6.93 6.929-23.072 23.07h-.005Z"></path></svg> </button> </div> <button type="button" tabindex="0" class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-white betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:outline-none text-sm leading-none [&amp;_svg]:text-grey-200 [&amp;:hover>svg]:text-white" data-test="reset-betslip" data-button-root="">Clear All</button></div></div> <div class="betlist svelte-1ps0iqe"><div class="betlist-scroll scrollY svelte-1ps0iqe scrollbar-visible"><div class="sports-empty-list svelte-1au42ay"><div class="sports-icon-wrapper svelte-1au42ay" style="font-size: var(--text-size-8xl);"><svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.7401 25.1095H16.4071V21.6539C16.4071 20.4152 23.7401 20.4152 23.7401 21.6539V25.1095Z" fill="#69E244"></path><path d="M63.8036 24.3578H16.1963C12.0405 24.3578 8.67151 27.7259 8.67151 31.8807C8.67151 36.0355 12.0405 39.4036 16.1963 39.4036H63.8036C67.9594 39.4036 71.3284 36.0355 71.3284 31.8807C71.3284 27.7259 67.9594 24.3578 63.8036 24.3578Z" fill="#263742"></path><path d="M63.8419 29.4741H16.1617C14.8315 29.4741 13.7532 30.5515 13.7532 31.8807C13.7532 33.2098 14.8315 34.2873 16.1617 34.2873H63.8419C65.1721 34.2873 66.2504 33.2098 66.2504 31.8807C66.2504 30.5515 65.1721 29.4741 63.8419 29.4741Z" fill="#0C1D29"></path><path d="M63.5963 77.4917V31.5643H16.4071V77.4917C17.7916 77.4917 18.9154 78.6155 18.9154 80H23.3374C23.3374 78.6155 24.4612 77.4917 25.8457 77.4917C27.2302 77.4917 28.354 78.6155 28.354 80H32.7761C32.7761 78.6155 33.8998 77.4917 35.2843 77.4917C36.6689 77.4917 37.7926 78.6155 37.7926 80H42.2147C42.2147 78.6155 43.3384 77.4917 44.7229 77.4917C46.1075 77.4917 47.2312 78.6155 47.2312 80H51.6533C51.6533 78.6155 52.777 77.4917 54.1615 77.4917C55.5461 77.4917 56.6698 78.6155 56.6698 80H61.0919C61.0919 78.6155 62.2156 77.4917 63.6002 77.4917H63.5963Z" fill="#334552"></path><path d="M32.2509 24.354C38.976 24.354 44.4278 18.9022 44.4278 12.177C44.4278 5.45183 38.976 0 32.2509 0C25.5257 0 20.0739 5.45183 20.0739 12.177C20.0739 18.9022 25.5257 24.354 32.2509 24.354Z" fill="#263742"></path><path d="M23.8704 3.34824C22.8233 4.34157 21.9489 5.52284 21.3046 6.84984L24.2999 4.61388L23.8704 3.34824Z" fill="#3C8725"></path><path d="M29.3356 8.18066L27.6135 13.7111L32.3463 17.0593L36.9908 13.5961L35.1307 8.10779L29.3356 8.18066Z" fill="#0C1D29"></path><path d="M43.369 17.1437L42.0266 17.159L40.9182 20.722C41.9307 19.698 42.7668 18.4937 43.369 17.1437Z" fill="#0C1D29"></path><path d="M41.9882 10.8807L44.3507 10.85C44.0861 8.41461 43.0889 6.15179 41.5548 4.3262L40.1281 5.38857L41.9882 10.8769V10.8807Z" fill="#0C1D29"></path><path d="M35.0924 1.82945L35.5219 0.452581C35.1 0.333688 34.6705 0.237806 34.2256 0.164936C32.3578 -0.141886 30.5207 -0.0076516 28.8179 0.494769L29.2934 1.90232L35.0885 1.82945H35.0924Z" fill="#0C1D29"></path><path d="M21.8223 13.4541L20.1425 13.4733C20.3879 15.7745 21.2854 17.9222 22.6737 19.6941L23.6824 18.9424L21.8223 13.4541Z" fill="#3C8725"></path><path d="M28.7218 22.5092L28.3459 23.7097C28.9634 23.9168 29.6078 24.0817 30.2751 24.1929C31.9166 24.4614 33.5312 24.3885 35.0538 24.028L34.5131 22.4364L28.718 22.5092H28.7218Z" fill="#3C8725"></path><path d="M54.1156 18.9041C54.1156 20.4305 53.4904 21.8074 52.4818 22.793C52.2401 23.0346 51.9755 23.2494 51.6917 23.4374C50.8249 24.0165 49.7856 24.354 48.6657 24.354C46.8784 24.354 45.2906 23.4949 44.3011 22.1679C44.1401 21.9569 43.9981 21.7383 43.8754 21.5082C43.4497 20.7335 43.2119 19.8475 43.2119 18.9041C43.2119 17.9606 43.4497 17.0746 43.8754 16.2999C43.9981 16.0698 44.1401 15.8512 44.3011 15.6402C45.2906 14.3132 46.8784 13.4541 48.6657 13.4541C49.7856 13.4541 50.8249 13.7916 51.6917 14.3708C51.9755 14.5587 52.2401 14.7735 52.4818 15.0151C53.4904 16.0008 54.1156 17.3776 54.1156 18.9041Z" fill="#334552"></path><path d="M49.3791 20.7258H49.5248V19.9588H49.0761C49.0147 19.7401 48.9687 19.5177 48.9457 19.2876H49.3676V18.5205H48.9457C48.9687 18.2904 49.0147 18.068 49.0761 17.8494H49.5248V17.0823H49.3791C49.9812 15.9432 51.1356 15.134 52.4818 15.0151C52.2402 14.7735 51.9755 14.5587 51.6917 14.3708C50.265 14.7313 49.0952 15.7476 48.5276 17.0823H47.8795V17.8494H48.2822C48.2323 18.068 48.1978 18.2904 48.1786 18.5205H47.7184V19.2876H48.1786C48.1978 19.5177 48.2323 19.7401 48.2822 19.9588H47.8795V20.7258H48.5276C49.0952 22.0605 50.265 23.0768 51.6917 23.4373C51.9755 23.2494 52.2402 23.0346 52.4818 22.793C51.1356 22.6741 49.9812 21.8649 49.3791 20.7258Z" fill="#263742"></path><path d="M46.0078 19.2876V18.5206H45.6204C45.6012 18.2904 45.5629 18.068 45.513 17.8494H45.8467V17.0823H45.2676C45.0374 16.5415 44.7076 16.0506 44.3011 15.6403C44.14 15.8512 43.9981 16.0698 43.8754 16.2999C44.0863 16.5339 44.2704 16.7985 44.42 17.0823H44.2014V17.8494H44.723C44.7843 18.068 44.8303 18.2904 44.8534 18.5206H44.3624V19.2876H44.8534C44.8303 19.5177 44.7843 19.7402 44.723 19.9588H44.2014V20.7258H44.42C44.2704 21.0096 44.0863 21.2743 43.8754 21.5082C43.9981 21.7383 44.14 21.957 44.3011 22.1679C44.7076 21.7575 45.0374 21.2666 45.2676 20.7258H45.8467V19.9588H45.513C45.5629 19.7402 45.6012 19.5177 45.6204 19.2876H46.0078Z" fill="#263742"></path></svg></div> <span class="weight-normal line-height-default align-left size-default text-size-default variant-subtle with-icon-space svelte-17v69ua">Bet Slip is Empty</span> <a class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-white betterhover:hover:bg-transparent betterhover:hover:text-white focus-visible:outline-none text-sm leading-none [&amp;_svg]:text-grey-200 [&amp;:hover>svg]:text-white" href="/sports/home" data-sveltekit-reload="off" data-sveltekit-preload-data="off" data-sveltekit-noscroll="off">Start Betting Now!</a></div> </div></div> <div class="footer svelte-1et8zee" data-block-touch-pan="true"> <div class="betslip-calculation-summary text-sm svelte-1c2tq9c"><div class="stack x-space-between y-center gap-small padding-none direction-horizontal padding-left-auto padding-top-auto padding-bottom-auto padding-right-auto svelte-1cd1boi"><span class="weight-normal line-height-default align-left size-default text-size-default variant-subtle with-icon-space svelte-17v69ua">Total Stake</span> <div class="currency svelte-141qgpc" role="presentation"> <span class="content svelte-141qgpc" style=""><span class="weight-semibold line-height-default align-left size-default text-size-default variant-highlighted numeric with-icon-space is-truncate svelte-17v69ua" style="max-width: 12ch;">0.00</span></span> <span class="weight-normal line-height-default align-left size-default text-size-default variant-subtle is-truncate svelte-17v69ua" title="sweeps" style="max-width: 12ch;"><svg fill="none" viewBox="0 0 96 96" class="svg-icon " style=""> <title></title> <path d="M48 96c26.51 0 48-21.49 48-48S74.51 0 48 0 0 21.49 0 48s21.49 48 48 48Z" fill="#6CDE07"></path><path d="M33.602 56.8c3.6 3.6 8.8 6.8 15.6 6.8 5.6 0 8.4-2.8 8.4-5.6 0-3.6-4.4-4.8-10-6.4-8-2-18.4-4-18.4-14.8 0-8 7.2-14.8 18.4-14.8 7.6 0 14.4 2.4 19.2 6.8l-6 7.6c-4-3.6-9.2-5.2-14-5.2-4.4 0-6.8 2-6.8 4.8 0 3.2 4 4.4 9.6 5.6 8 2 18.4 4.4 18.4 15.2 0 8.8-6.4 15.6-19.6 15.6-9.6 0-16-3.2-20.8-7.6l6-8Z" fill="#1F4002"></path></svg></span> </div></div> <div class="stack x-space-between y-center gap-small padding-none direction-horizontal padding-left-auto padding-top-auto padding-bottom-auto padding-right-auto svelte-1cd1boi"><span class="weight-normal line-height-default align-left size-default text-size-default variant-subtle with-icon-space svelte-17v69ua">Est. Winnings</span> <div data-test="betslip-estimated-payout"><div class="currency svelte-141qgpc" role="presentation"> <span class="content svelte-141qgpc" style=""><span class="weight-semibold line-height-default align-left size-default text-size-default variant-highlighted numeric with-icon-space is-truncate svelte-17v69ua" style="max-width: 12ch;">0.00</span></span> <span class="weight-normal line-height-default align-left size-default text-size-default variant-subtle is-truncate svelte-17v69ua" title="sweeps" style="max-width: 12ch;"><svg fill="none" viewBox="0 0 96 96" class="svg-icon " style=""> <title></title> <path d="M48 96c26.51 0 48-21.49 48-48S74.51 0 48 0 0 21.49 0 48s21.49 48 48 48Z" fill="#6CDE07"></path><path d="M33.602 56.8c3.6 3.6 8.8 6.8 15.6 6.8 5.6 0 8.4-2.8 8.4-5.6 0-3.6-4.4-4.8-10-6.4-8-2-18.4-4-18.4-14.8 0-8 7.2-14.8 18.4-14.8 7.6 0 14.4 2.4 19.2 6.8l-6 7.6c-4-3.6-9.2-5.2-14-5.2-4.4 0-6.8 2-6.8 4.8 0 3.2 4 4.4 9.6 5.6 8 2 18.4 4.4 18.4 15.2 0 8.8-6.4 15.6-19.6 15.6-9.6 0-16-3.2-20.8-7.6l6-8Z" fill="#1F4002"></path></svg></span> </div></div></div></div>  <button type="button" tabindex="0" class="inline-flex relative items-center gap-2 justify-center rounded-sm font-semibold whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-blue-500 text-white betterhover:hover:bg-blue-600 betterhover:hover:text-white focus-visible:outline-white text-sm leading-none shadow-md py-[0.9375rem] px-[1.25rem]" disabled="" data-analytics="sports-betSlip-placeSingleBet-button" data-button-root=""> <div data-loader-content="" class="contents">Place Single Bet</div></button></div> </div></div></div></div><script id="" text="" charset="" type="text/javascript" src="https://sdk.optimove.net/websdk/?tenant_id=777"></script><script type="text/javascript" id="" charset="">var url=google_tag_manager["rm"]["91480485"](6);
+window.optimoveSDK&&(url.includes("modal\x3dwallet")&&(!url.includes("transaction\x3ddeposit")&&url.includes("transaction")||optimoveSDK.API.reportEvent("deposit_initiated",{}),url.includes("transaction\x3dwithdraw")&&optimoveSDK.API.reportEvent("withdraw_initiated",{}),url.includes("transaction\x3dexchange")&&optimoveSDK.API.reportEvent("coinswitch_initiated",{}),url.includes("transaction\x3dbuy")&&optimoveSDK.API.reportEvent("moonpay_initiated",{})),url.includes("modal\x3dlogout")&&optimoveSDK.API.reportEvent("logout_initiated",
+{}));</script><script type="text/javascript" id="" charset="">!function(d,g,e){d.TiktokAnalyticsObject=e;var a=d[e]=d[e]||[];a.methods="page track identify instances debug on off once ready alias group enableCookie disableCookie".split(" ");a.setAndDefer=function(b,c){b[c]=function(){b.push([c].concat(Array.prototype.slice.call(arguments,0)))}};for(d=0;d<a.methods.length;d++)a.setAndDefer(a,a.methods[d]);a.instance=function(b){b=a._i[b]||[];for(var c=0;c<a.methods.length;c++)a.setAndDefer(b,a.methods[c]);return b};a.load=function(b,c){var f="https://analytics.tiktok.com/i18n/pixel/events.js";
+a._i=a._i||{};a._i[b]=[];a._i[b]._u=f;a._t=a._t||{};a._t[b]=+new Date;a._o=a._o||{};a._o[b]=c||{};c=document.createElement("script");c.type="text/javascript";c.async=!0;c.src=f+"?sdkid\x3d"+b+"\x26lib\x3d"+e;b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(c,b)};a.load("CFHLON3C77UCCRP96110");a.page()}(window,document,"ttq");</script><iframe height="0" width="0" style="display: none; visibility: hidden;"></iframe><iframe id="intercom-frame" style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important; pointer-events: none;visibility: hidden;" aria-hidden="true" tabindex="-1" title="Intercom"></iframe>
+<script type="text/javascript" id="" charset="">dataLayer.push({event:"set_user_id"});dataLayer.push({event:"page_visit"});</script><script type="text/javascript" id="" charset="">var optimoveSDKInitialised=window.optimoveSDK,sessionExpired=google_tag_manager["rm"]["91480485"](8).toLowerCase().includes("sessionexpire"),userId=google_tag_manager["rm"]["91480485"](9);optimoveSDKInitialised&&!sessionExpired&&userId&&optimoveSDK.API.setUserId(userId.toUpperCase());</script><script type="text/javascript" id="" charset="">var optimoveSDKInitialised=window.optimoveSDK,sessionExpired=google_tag_manager["rm"]["91480485"](11).toLowerCase().includes("sessionexpire"),referrer=google_tag_manager["rm"]["91480485"](12),referrerIsHost=referrer.includes(google_tag_manager["rm"]["91480485"](13));optimoveSDKInitialised&&!sessionExpired&&referrer&&!referrerIsHost&&optimoveSDK.API.reportEvent("first_visit",{referrer:referrer});</script><script type="text/javascript" id="" charset="">var optimoveSDKInitialised=window.optimoveSDK,sessionExpired=google_tag_manager["rm"]["91480485"](14).toLowerCase().includes("sessionexpire");optimoveSDKInitialised&&!sessionExpired&&optimoveSDK.API.setPageVisit(google_tag_manager["rm"]["91480485"](15),google_tag_manager["rm"]["91480485"](16),google_tag_manager["rm"]["91480485"](17));</script><div id="intercom-container" class="intercom-namespace"><style>html.intercom-mobile-messenger-active,html.intercom-mobile-messenger-active>body,html.intercom-modal-open,#intercom-container-body{overflow:hidden!important;}html.intercom-mobile-messenger-active,html.intercom-mobile-messenger-active>body{position:static!important;transform:none!important;}html.intercom-mobile-messenger-active>body{height:0!important;margin:0!important;}iframe#intercom-frame{position:absolute!important;opacity:0!important;width:1px!important;height:1px!important;top:0!important;left:0!important;border:none!important;display:block!important;z-index:-1!important;
+      visibility: hidden;
+    ;};;</style><div class="intercom-app" aria-live="polite"><div class="intercom-messenger-frame intercom-with-namespace-1dyw9nz ed8ycz90"></div><div id="intercom-modal-container"></div></div></div><div id="intercom-css-container"><style data-emotion="intercom-with-namespace-global" data-s=""></style><style data-emotion="intercom-with-namespace" data-s=""></style></div></body></html>
